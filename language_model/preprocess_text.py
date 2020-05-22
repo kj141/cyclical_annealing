@@ -83,7 +83,7 @@ def get_data(args):
                     indexer.vocab[word] += 1
         return num_sents
 
-    def convert(textfile, batchsize, seqlength, outfile, num_sents, max_sent_l=0,shuffle=0):
+    def convert(textfile, batchsize, seqlength, outfile, num_sents, max_sent_l=60,shuffle=0):
         newseqlength = seqlength + 2 #add 2 for EOS and BOS
         sents = np.zeros((num_sents, newseqlength), dtype=int)
         sent_lengths = np.zeros((num_sents,), dtype=int)
@@ -165,7 +165,7 @@ def get_data(args):
     indexer.write(args.outputfile + ".dict")
     print("Vocab size: Original = {}, Pruned = {}".format(len(indexer.vocab),
                                                           len(indexer.d)))
-    max_sent_l = 0
+    max_sent_l = 60
     max_sent_l = convert(args.valfile, args.batchsize, args.seqlength,
                          args.outputfile + "-val.hdf5", num_sents_valid,
                          max_sent_l, args.shuffle)

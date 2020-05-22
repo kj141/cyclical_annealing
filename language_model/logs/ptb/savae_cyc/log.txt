@@ -1,0 +1,827 @@
+[2020-05-22 02:31:11.748982 PDT] Train data: 1359 batches
+[2020-05-22 02:31:11.749226 PDT] Val data: 142 batches
+[2020-05-22 02:31:11.749332 PDT] Test data: 155 batches
+[2020-05-22 02:31:11.749446 PDT] Word vocab size: 10002
+[2020-05-22 02:31:12.398228 PDT] model architecture
+[2020-05-22 02:31:17.115086 PDT] Starting epoch 1
+[2020-05-22 02:31:17.115421 PDT] KL annealing restart
+[2020-05-22 02:31:55.947459 PDT] Iters: 0, Epoch: 1, Batch: 101/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 169.7025, TrainVAE_REC: 164.4753, TrainVAE_KL: 5.2272, TrainVAE_PPL: 1611.72, TrainSVI_NLL: 169.76, TrainSVI_REC: 164.26, TrainSVI_KL: 5.5046, TrainSVI_PPL: 1615.92, KLInitFinal: 0.00, |Param|: 185.9033, BestValPerf: 100000.00, BestEpoch: 0, Beta: 0.1147, Throughput: 80.37 examples/sec
+[2020-05-22 02:32:32.670993 PDT] Iters: 0, Epoch: 1, Batch: 201/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 154.6703, TrainVAE_REC: 151.4200, TrainVAE_KL: 3.2504, TrainVAE_PPL: 1028.60, TrainSVI_NLL: 154.64, TrainSVI_REC: 151.22, TrainSVI_KL: 3.4137, TrainSVI_PPL: 1026.97, KLInitFinal: 0.00, |Param|: 198.8216, BestValPerf: 100000.00, BestEpoch: 0, Beta: 0.1294, Throughput: 82.24 examples/sec
+[2020-05-22 02:33:06.811658 PDT] Iters: 0, Epoch: 1, Batch: 301/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 147.5968, TrainVAE_REC: 144.9183, TrainVAE_KL: 2.6786, TrainVAE_PPL: 818.52, TrainSVI_NLL: 147.57, TrainSVI_REC: 144.77, TrainSVI_KL: 2.7990, TrainSVI_PPL: 817.42, KLInitFinal: 0.00, |Param|: 207.0654, BestValPerf: 100000.00, BestEpoch: 0, Beta: 0.1442, Throughput: 84.69 examples/sec
+[2020-05-22 02:33:43.060262 PDT] Iters: 0, Epoch: 1, Batch: 401/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 143.8059, TrainVAE_REC: 141.3295, TrainVAE_KL: 2.4764, TrainVAE_PPL: 698.72, TrainSVI_NLL: 143.75, TrainSVI_REC: 141.17, TrainSVI_KL: 2.5774, TrainSVI_PPL: 696.88, KLInitFinal: 0.00, |Param|: 212.5003, BestValPerf: 100000.00, BestEpoch: 0, Beta: 0.1589, Throughput: 84.87 examples/sec
+[2020-05-22 02:34:14.973688 PDT] Iters: 0, Epoch: 1, Batch: 501/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 138.6687, TrainVAE_REC: 136.2826, TrainVAE_KL: 2.3861, TrainVAE_PPL: 627.69, TrainSVI_NLL: 138.59, TrainSVI_REC: 136.12, TrainSVI_KL: 2.4740, TrainSVI_PPL: 625.46, KLInitFinal: 0.00, |Param|: 216.8569, BestValPerf: 100000.00, BestEpoch: 0, Beta: 0.1736, Throughput: 87.19 examples/sec
+[2020-05-22 02:34:51.602128 PDT] Iters: 0, Epoch: 1, Batch: 601/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 137.3950, TrainVAE_REC: 135.0484, TrainVAE_KL: 2.3465, TrainVAE_PPL: 571.54, TrainSVI_NLL: 137.30, TrainSVI_REC: 134.87, TrainSVI_KL: 2.4338, TrainSVI_PPL: 569.10, KLInitFinal: 0.00, |Param|: 220.8683, BestValPerf: 100000.00, BestEpoch: 0, Beta: 0.1883, Throughput: 86.71 examples/sec
+[2020-05-22 02:35:27.673983 PDT] Iters: 0, Epoch: 1, Batch: 701/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 136.3024, TrainVAE_REC: 133.9650, TrainVAE_KL: 2.3374, TrainVAE_PPL: 530.53, TrainSVI_NLL: 136.19, TrainSVI_REC: 133.76, TrainSVI_KL: 2.4269, TrainSVI_PPL: 527.67, KLInitFinal: 0.00, |Param|: 224.4016, BestValPerf: 100000.00, BestEpoch: 0, Beta: 0.2030, Throughput: 86.49 examples/sec
+[2020-05-22 02:36:05.644264 PDT] Iters: 0, Epoch: 1, Batch: 801/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 135.1450, TrainVAE_REC: 132.8101, TrainVAE_KL: 2.3349, TrainVAE_PPL: 496.10, TrainSVI_NLL: 134.99, TrainSVI_REC: 132.56, TrainSVI_KL: 2.4256, TrainSVI_PPL: 492.60, KLInitFinal: 0.00, |Param|: 227.4880, BestValPerf: 100000.00, BestEpoch: 0, Beta: 0.2177, Throughput: 86.05 examples/sec
+[2020-05-22 02:36:41.716717 PDT] Iters: 0, Epoch: 1, Batch: 901/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 134.1671, TrainVAE_REC: 131.8238, TrainVAE_KL: 2.3433, TrainVAE_PPL: 470.42, TrainSVI_NLL: 134.00, TrainSVI_REC: 131.56, TrainSVI_KL: 2.4348, TrainSVI_PPL: 466.82, KLInitFinal: 0.00, |Param|: 230.7111, BestValPerf: 100000.00, BestEpoch: 0, Beta: 0.2325, Throughput: 86.03 examples/sec
+[2020-05-22 02:37:19.004177 PDT] Iters: 0, Epoch: 1, Batch: 1001/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 133.6402, TrainVAE_REC: 131.2891, TrainVAE_KL: 2.3511, TrainVAE_PPL: 446.67, TrainSVI_NLL: 133.47, TrainSVI_REC: 131.02, TrainSVI_KL: 2.4489, TrainSVI_PPL: 443.26, KLInitFinal: 0.00, |Param|: 233.8795, BestValPerf: 100000.00, BestEpoch: 0, Beta: 0.2472, Throughput: 85.58 examples/sec
+[2020-05-22 02:37:58.750083 PDT] Iters: 0, Epoch: 1, Batch: 1101/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 133.9519, TrainVAE_REC: 131.5861, TrainVAE_KL: 2.3659, TrainVAE_PPL: 427.49, TrainSVI_NLL: 133.77, TrainSVI_REC: 131.30, TrainSVI_KL: 2.4657, TrainSVI_PPL: 423.98, KLInitFinal: 0.00, |Param|: 236.9020, BestValPerf: 100000.00, BestEpoch: 0, Beta: 0.2619, Throughput: 84.83 examples/sec
+[2020-05-22 02:38:35.281065 PDT] Iters: 0, Epoch: 1, Batch: 1201/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 133.0989, TrainVAE_REC: 130.7201, TrainVAE_KL: 2.3788, TrainVAE_PPL: 410.97, TrainSVI_NLL: 132.92, TrainSVI_REC: 130.44, TrainSVI_KL: 2.4802, TrainSVI_PPL: 407.62, KLInitFinal: 0.00, |Param|: 239.8806, BestValPerf: 100000.00, BestEpoch: 0, Beta: 0.2766, Throughput: 85.00 examples/sec
+[2020-05-22 02:39:11.673801 PDT] Iters: 0, Epoch: 1, Batch: 1301/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 132.3519, TrainVAE_REC: 129.9620, TrainVAE_KL: 2.3898, TrainVAE_PPL: 396.78, TrainSVI_NLL: 132.18, TrainSVI_REC: 129.68, TrainSVI_KL: 2.4941, TrainSVI_PPL: 393.67, KLInitFinal: 0.00, |Param|: 242.7533, BestValPerf: 100000.00, BestEpoch: 0, Beta: 0.2913, Throughput: 84.79 examples/sec
+[2020-05-22 02:39:32.585894 PDT] Time Elapsed: 495.5s
+[2020-05-22 02:39:32.586202 PDT] --------------------------------
+[2020-05-22 02:39:32.586326 PDT] Checking validation perf...
+-------------------------------
+| Epoch            | 1        |
+| Mode             | Val      |
+| LR               | 0.001    |
+| Epoch Train Time | 495.47   |
+| AR NLL           | 0        |
+| AR PPL           | 1        |
+| VAE NLL          | 117.88   |
+| VAE REC          | 115.35   |
+| VAE KL           | 2.5257   |
+| VAE PPL          | 218.24   |
+| SVI NLL          | 117.67   |
+| SVI REC          | 114.85   |
+| SVI KL           | 2.8229   |
+| SVI PPL          | 216.24   |
+-------------------------------
+[2020-05-22 02:39:54.405611 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 117.8754, VAE REC: 115.3497, VAE KL: 2.5257, VAE PPL: 218.2355, SVI NLL: 117.6744, SVI REC: 114.8515, SVI KL: 2.8229, SVI PPL: 216.2409
+[2020-05-22 02:39:54.406062 PDT] --------------------------------
+[2020-05-22 02:39:54.406172 PDT] Checking test perf...
+-------------------------------
+| Epoch            | 1        |
+| Mode             | Test     |
+| LR               | 0.001    |
+| Epoch Train Time | 495.47   |
+| AR NLL           | 0        |
+| AR PPL           | 1        |
+| VAE NLL          | 116.98   |
+| VAE REC          | 114.54   |
+| VAE KL           | 2.433    |
+| VAE PPL          | 207.94   |
+| SVI NLL          | 116.78   |
+| SVI REC          | 114.06   |
+| SVI KL           | 2.7188   |
+| SVI PPL          | 206.08   |
+-------------------------------
+[2020-05-22 02:40:18.520978 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 116.9767, VAE REC: 114.5437, VAE KL: 2.4330, VAE PPL: 207.9397, SVI NLL: 116.7801, SVI REC: 114.0612, SVI KL: 2.7188, SVI PPL: 206.0825
+[2020-05-22 02:40:18.571908 PDT] Save checkpoint to models/ptb/savae_cyc.pt
+[2020-05-22 02:40:18.744162 PDT] Starting epoch 2
+[2020-05-22 02:40:55.869269 PDT] Iters: 0, Epoch: 2, Batch: 101/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 116.9237, TrainVAE_REC: 114.4096, TrainVAE_KL: 2.5141, TrainVAE_PPL: 219.63, TrainSVI_NLL: 116.59, TrainSVI_REC: 113.97, TrainSVI_KL: 2.6178, TrainSVI_PPL: 216.29, KLInitFinal: 0.00, |Param|: 247.8394, BestValPerf: 216.24, BestEpoch: 1, Beta: 0.3147, Throughput: 84.55 examples/sec
+[2020-05-22 02:41:32.502780 PDT] Iters: 0, Epoch: 2, Batch: 201/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 119.7322, TrainVAE_REC: 117.2042, TrainVAE_KL: 2.5280, TrainVAE_PPL: 223.62, TrainSVI_NLL: 119.45, TrainSVI_REC: 116.81, TrainSVI_KL: 2.6425, TrainSVI_PPL: 220.77, KLInitFinal: 0.00, |Param|: 250.9512, BestValPerf: 216.24, BestEpoch: 1, Beta: 0.3294, Throughput: 85.16 examples/sec
+[2020-05-22 02:42:10.354140 PDT] Iters: 0, Epoch: 2, Batch: 301/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 119.6878, TrainVAE_REC: 117.1237, TrainVAE_KL: 2.5641, TrainVAE_PPL: 221.71, TrainSVI_NLL: 119.44, TrainSVI_REC: 116.77, TrainSVI_KL: 2.6749, TrainSVI_PPL: 219.27, KLInitFinal: 0.00, |Param|: 254.0689, BestValPerf: 216.24, BestEpoch: 1, Beta: 0.3442, Throughput: 84.17 examples/sec
+[2020-05-22 02:42:46.311704 PDT] Iters: 0, Epoch: 2, Batch: 401/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 120.0189, TrainVAE_REC: 117.4075, TrainVAE_KL: 2.6114, TrainVAE_PPL: 219.21, TrainSVI_NLL: 119.78, TrainSVI_REC: 117.06, TrainSVI_KL: 2.7268, TrainSVI_PPL: 216.91, KLInitFinal: 0.00, |Param|: 256.9691, BestValPerf: 216.24, BestEpoch: 1, Beta: 0.3589, Throughput: 84.99 examples/sec
+[2020-05-22 02:43:25.796560 PDT] Iters: 0, Epoch: 2, Batch: 501/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 122.4494, TrainVAE_REC: 119.7917, TrainVAE_KL: 2.6577, TrainVAE_PPL: 217.28, TrainSVI_NLL: 122.23, TrainSVI_REC: 119.45, TrainSVI_KL: 2.7783, TrainSVI_PPL: 215.18, KLInitFinal: 0.00, |Param|: 259.8611, BestValPerf: 216.24, BestEpoch: 1, Beta: 0.3736, Throughput: 83.59 examples/sec
+[2020-05-22 02:44:00.490833 PDT] Iters: 0, Epoch: 2, Batch: 601/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 121.7512, TrainVAE_REC: 119.0524, TrainVAE_KL: 2.6988, TrainVAE_PPL: 217.48, TrainSVI_NLL: 121.53, TrainSVI_REC: 118.71, TrainSVI_KL: 2.8201, TrainSVI_PPL: 215.35, KLInitFinal: 0.00, |Param|: 262.4954, BestValPerf: 216.24, BestEpoch: 1, Beta: 0.3883, Throughput: 84.50 examples/sec
+[2020-05-22 02:44:36.284739 PDT] Iters: 0, Epoch: 2, Batch: 701/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 121.6103, TrainVAE_REC: 118.8828, TrainVAE_KL: 2.7275, TrainVAE_PPL: 215.68, TrainSVI_NLL: 121.38, TrainSVI_REC: 118.53, TrainSVI_KL: 2.8497, TrainSVI_PPL: 213.49, KLInitFinal: 0.00, |Param|: 265.2593, BestValPerf: 216.24, BestEpoch: 1, Beta: 0.4030, Throughput: 84.90 examples/sec
+[2020-05-22 02:45:09.123379 PDT] Iters: 0, Epoch: 2, Batch: 801/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 120.6692, TrainVAE_REC: 117.9217, TrainVAE_KL: 2.7475, TrainVAE_PPL: 214.20, TrainSVI_NLL: 120.45, TrainSVI_REC: 117.58, TrainSVI_KL: 2.8690, TrainSVI_PPL: 212.09, KLInitFinal: 0.00, |Param|: 268.0264, BestValPerf: 216.24, BestEpoch: 1, Beta: 0.4177, Throughput: 86.07 examples/sec
+[2020-05-22 02:45:47.630690 PDT] Iters: 0, Epoch: 2, Batch: 901/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 120.8918, TrainVAE_REC: 118.1225, TrainVAE_KL: 2.7693, TrainVAE_PPL: 212.10, TrainSVI_NLL: 120.67, TrainSVI_REC: 117.78, TrainSVI_KL: 2.8959, TrainSVI_PPL: 210.07, KLInitFinal: 0.00, |Param|: 270.7406, BestValPerf: 216.24, BestEpoch: 1, Beta: 0.4325, Throughput: 85.22 examples/sec
+[2020-05-22 02:46:21.873103 PDT] Iters: 0, Epoch: 2, Batch: 1001/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 119.9004, TrainVAE_REC: 117.1275, TrainVAE_KL: 2.7729, TrainVAE_PPL: 210.27, TrainSVI_NLL: 119.68, TrainSVI_REC: 116.79, TrainSVI_KL: 2.8990, TrainSVI_PPL: 208.25, KLInitFinal: 0.00, |Param|: 273.3975, BestValPerf: 216.24, BestEpoch: 1, Beta: 0.4472, Throughput: 85.61 examples/sec
+[2020-05-22 02:46:56.965063 PDT] Iters: 0, Epoch: 2, Batch: 1101/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 119.2346, TrainVAE_REC: 116.4392, TrainVAE_KL: 2.7954, TrainVAE_PPL: 208.82, TrainSVI_NLL: 119.02, TrainSVI_REC: 116.10, TrainSVI_KL: 2.9215, TrainSVI_PPL: 206.81, KLInitFinal: 0.00, |Param|: 275.9250, BestValPerf: 216.24, BestEpoch: 1, Beta: 0.4619, Throughput: 85.94 examples/sec
+[2020-05-22 02:47:28.145285 PDT] Iters: 0, Epoch: 2, Batch: 1201/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 118.0248, TrainVAE_REC: 115.2212, TrainVAE_KL: 2.8036, TrainVAE_PPL: 206.66, TrainSVI_NLL: 117.81, TrainSVI_REC: 114.88, TrainSVI_KL: 2.9310, TrainSVI_PPL: 204.67, KLInitFinal: 0.00, |Param|: 278.3425, BestValPerf: 216.24, BestEpoch: 1, Beta: 0.4766, Throughput: 86.84 examples/sec
+[2020-05-22 02:48:03.239654 PDT] Iters: 0, Epoch: 2, Batch: 1301/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 117.9966, TrainVAE_REC: 115.1746, TrainVAE_KL: 2.8220, TrainVAE_PPL: 205.98, TrainSVI_NLL: 117.79, TrainSVI_REC: 114.84, TrainSVI_KL: 2.9532, TrainSVI_PPL: 204.06, KLInitFinal: 0.00, |Param|: 280.7885, BestValPerf: 216.24, BestEpoch: 1, Beta: 0.4913, Throughput: 86.70 examples/sec
+[2020-05-22 02:48:21.839810 PDT] Time Elapsed: 483.1s
+[2020-05-22 02:48:21.840027 PDT] --------------------------------
+[2020-05-22 02:48:21.840122 PDT] Checking validation perf...
+---------------------------------
+| Epoch            | 2          |
+| Mode             | Val        |
+| LR               | 0.00097553 |
+| Epoch Train Time | 483.1      |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 112.34     |
+| VAE REC          | 109.65     |
+| VAE KL           | 2.689      |
+| VAE PPL          | 169.48     |
+| SVI NLL          | 112.27     |
+| SVI REC          | 109.07     |
+| SVI KL           | 3.1963     |
+| SVI PPL          | 168.9      |
+---------------------------------
+[2020-05-22 02:48:43.875978 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 112.3416, VAE REC: 109.6526, VAE KL: 2.6890, VAE PPL: 169.4814, SVI NLL: 112.2661, SVI REC: 109.0698, SVI KL: 3.1963, SVI PPL: 168.8980
+[2020-05-22 02:48:43.876378 PDT] --------------------------------
+[2020-05-22 02:48:43.876497 PDT] Checking test perf...
+---------------------------------
+| Epoch            | 2          |
+| Mode             | Test       |
+| LR               | 0.00097553 |
+| Epoch Train Time | 483.1      |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 111.35     |
+| VAE REC          | 108.69     |
+| VAE KL           | 2.6528     |
+| VAE PPL          | 160.83     |
+| SVI NLL          | 111.26     |
+| SVI REC          | 108.16     |
+| SVI KL           | 3.1048     |
+| SVI PPL          | 160.22     |
+---------------------------------
+[2020-05-22 02:49:08.099850 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 111.3456, VAE REC: 108.6928, VAE KL: 2.6528, VAE PPL: 160.8256, SVI NLL: 111.2627, SVI REC: 108.1580, SVI KL: 3.1048, SVI PPL: 160.2186
+[2020-05-22 02:49:08.156965 PDT] Save checkpoint to models/ptb/savae_cyc.pt
+[2020-05-22 02:49:08.273781 PDT] Starting epoch 3
+[2020-05-22 02:49:43.002390 PDT] Iters: 0, Epoch: 3, Batch: 101/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 113.2681, TrainVAE_REC: 110.3024, TrainVAE_KL: 2.9657, TrainVAE_PPL: 171.78, TrainSVI_NLL: 112.95, TrainSVI_REC: 109.86, TrainSVI_KL: 3.0921, TrainSVI_PPL: 169.35, KLInitFinal: 0.00, |Param|: 285.0428, BestValPerf: 168.90, BestEpoch: 2, Beta: 0.5147, Throughput: 86.38 examples/sec
+[2020-05-22 02:50:16.661776 PDT] Iters: 0, Epoch: 3, Batch: 201/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 112.2967, TrainVAE_REC: 109.3817, TrainVAE_KL: 2.9150, TrainVAE_PPL: 169.38, TrainSVI_NLL: 112.05, TrainSVI_REC: 109.01, TrainSVI_KL: 3.0457, TrainSVI_PPL: 167.51, KLInitFinal: 0.00, |Param|: 287.7514, BestValPerf: 168.90, BestEpoch: 2, Beta: 0.5294, Throughput: 88.79 examples/sec
+[2020-05-22 02:50:47.587168 PDT] Iters: 0, Epoch: 3, Batch: 301/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 108.8056, TrainVAE_REC: 105.8869, TrainVAE_KL: 2.9186, TrainVAE_PPL: 166.26, TrainSVI_NLL: 108.60, TrainSVI_REC: 105.55, TrainSVI_KL: 3.0488, TrainSVI_PPL: 164.63, KLInitFinal: 0.00, |Param|: 290.1701, BestValPerf: 168.90, BestEpoch: 2, Beta: 0.5442, Throughput: 92.13 examples/sec
+[2020-05-22 02:51:21.652005 PDT] Iters: 0, Epoch: 3, Batch: 401/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 109.3040, TrainVAE_REC: 106.3797, TrainVAE_KL: 2.9243, TrainVAE_PPL: 167.16, TrainSVI_NLL: 109.08, TrainSVI_REC: 106.02, TrainSVI_KL: 3.0623, TrainSVI_PPL: 165.40, KLInitFinal: 0.00, |Param|: 292.4640, BestValPerf: 168.90, BestEpoch: 2, Beta: 0.5589, Throughput: 91.54 examples/sec
+[2020-05-22 02:51:56.368586 PDT] Iters: 0, Epoch: 3, Batch: 501/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 110.0370, TrainVAE_REC: 107.1353, TrainVAE_KL: 2.9017, TrainVAE_PPL: 166.21, TrainSVI_NLL: 109.81, TrainSVI_REC: 106.76, TrainSVI_KL: 3.0434, TrainSVI_PPL: 164.44, KLInitFinal: 0.00, |Param|: 294.9966, BestValPerf: 168.90, BestEpoch: 2, Beta: 0.5736, Throughput: 91.04 examples/sec
+[2020-05-22 02:52:32.996193 PDT] Iters: 0, Epoch: 3, Batch: 601/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 111.1804, TrainVAE_REC: 108.2922, TrainVAE_KL: 2.8882, TrainVAE_PPL: 164.53, TrainSVI_NLL: 110.98, TrainSVI_REC: 107.94, TrainSVI_KL: 3.0325, TrainSVI_PPL: 163.01, KLInitFinal: 0.00, |Param|: 297.4845, BestValPerf: 168.90, BestEpoch: 2, Beta: 0.5883, Throughput: 90.19 examples/sec
+[2020-05-22 02:53:10.479815 PDT] Iters: 0, Epoch: 3, Batch: 701/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 112.2236, TrainVAE_REC: 109.3324, TrainVAE_KL: 2.8913, TrainVAE_PPL: 163.33, TrainSVI_NLL: 112.06, TrainSVI_REC: 109.03, TrainSVI_KL: 3.0336, TrainSVI_PPL: 162.12, KLInitFinal: 0.00, |Param|: 299.9328, BestValPerf: 168.90, BestEpoch: 2, Beta: 0.6030, Throughput: 89.07 examples/sec
+[2020-05-22 02:53:46.720192 PDT] Iters: 0, Epoch: 3, Batch: 801/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 112.7252, TrainVAE_REC: 109.8453, TrainVAE_KL: 2.8799, TrainVAE_PPL: 162.90, TrainSVI_NLL: 112.54, TrainSVI_REC: 109.52, TrainSVI_KL: 3.0207, TrainSVI_PPL: 161.55, KLInitFinal: 0.00, |Param|: 302.2939, BestValPerf: 168.90, BestEpoch: 2, Beta: 0.6177, Throughput: 88.33 examples/sec
+[2020-05-22 02:54:22.866305 PDT] Iters: 0, Epoch: 3, Batch: 901/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 112.7536, TrainVAE_REC: 109.8766, TrainVAE_KL: 2.8771, TrainVAE_PPL: 161.97, TrainSVI_NLL: 112.58, TrainSVI_REC: 109.56, TrainSVI_KL: 3.0172, TrainSVI_PPL: 160.72, KLInitFinal: 0.00, |Param|: 304.6027, BestValPerf: 168.90, BestEpoch: 2, Beta: 0.6325, Throughput: 88.16 examples/sec
+[2020-05-22 02:54:55.991247 PDT] Iters: 0, Epoch: 3, Batch: 1001/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 112.1351, TrainVAE_REC: 109.2634, TrainVAE_KL: 2.8717, TrainVAE_PPL: 161.45, TrainSVI_NLL: 111.97, TrainSVI_REC: 108.96, TrainSVI_KL: 3.0104, TrainSVI_PPL: 160.27, KLInitFinal: 0.00, |Param|: 306.8882, BestValPerf: 168.90, BestEpoch: 2, Beta: 0.6472, Throughput: 88.60 examples/sec
+[2020-05-22 02:55:32.150690 PDT] Iters: 0, Epoch: 3, Batch: 1101/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 112.2014, TrainVAE_REC: 109.3363, TrainVAE_KL: 2.8652, TrainVAE_PPL: 161.53, TrainSVI_NLL: 112.03, TrainSVI_REC: 109.03, TrainSVI_KL: 3.0016, TrainSVI_PPL: 160.27, KLInitFinal: 0.00, |Param|: 309.1173, BestValPerf: 168.90, BestEpoch: 2, Beta: 0.6619, Throughput: 88.40 examples/sec
+[2020-05-22 02:56:08.195783 PDT] Iters: 0, Epoch: 3, Batch: 1201/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 112.2053, TrainVAE_REC: 109.3600, TrainVAE_KL: 2.8453, TrainVAE_PPL: 161.30, TrainSVI_NLL: 112.04, TrainSVI_REC: 109.06, TrainSVI_KL: 2.9815, TrainSVI_PPL: 160.11, KLInitFinal: 0.00, |Param|: 311.4445, BestValPerf: 168.90, BestEpoch: 2, Beta: 0.6766, Throughput: 88.34 examples/sec
+[2020-05-22 02:56:45.647867 PDT] Iters: 0, Epoch: 3, Batch: 1301/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 112.4627, TrainVAE_REC: 109.6334, TrainVAE_KL: 2.8292, TrainVAE_PPL: 160.84, TrainSVI_NLL: 112.30, TrainSVI_REC: 109.34, TrainSVI_KL: 2.9637, TrainSVI_PPL: 159.67, KLInitFinal: 0.00, |Param|: 313.7126, BestValPerf: 168.90, BestEpoch: 2, Beta: 0.6913, Throughput: 87.92 examples/sec
+[2020-05-22 02:57:06.061143 PDT] Time Elapsed: 477.8s
+[2020-05-22 02:57:06.061369 PDT] --------------------------------
+[2020-05-22 02:57:06.061472 PDT] Checking validation perf...
+---------------------------------
+| Epoch            | 3          |
+| Mode             | Val        |
+| LR               | 0.00090451 |
+| Epoch Train Time | 477.79     |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 109.45     |
+| VAE REC          | 106.58     |
+| VAE KL           | 2.8707     |
+| VAE PPL          | 148.49     |
+| SVI NLL          | 109.25     |
+| SVI REC          | 106.13     |
+| SVI KL           | 3.1184     |
+| SVI PPL          | 147.15     |
+---------------------------------
+[2020-05-22 02:57:27.666588 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 109.4482, VAE REC: 106.5774, VAE KL: 2.8707, VAE PPL: 148.4943, SVI NLL: 109.2489, SVI REC: 106.1305, SVI KL: 3.1184, SVI PPL: 147.1484
+[2020-05-22 02:57:27.666986 PDT] --------------------------------
+[2020-05-22 02:57:27.667105 PDT] Checking test perf...
+---------------------------------
+| Epoch            | 3          |
+| Mode             | Test       |
+| LR               | 0.00090451 |
+| Epoch Train Time | 477.79     |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 108.63     |
+| VAE REC          | 105.77     |
+| VAE KL           | 2.8593     |
+| VAE PPL          | 142.09     |
+| SVI NLL          | 108.48     |
+| SVI REC          | 105.45     |
+| SVI KL           | 3.024      |
+| SVI PPL          | 141.1      |
+---------------------------------
+[2020-05-22 02:57:51.813483 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 108.6303, VAE REC: 105.7710, VAE KL: 2.8593, VAE PPL: 142.0859, SVI NLL: 108.4778, SVI REC: 105.4537, SVI KL: 3.0240, SVI PPL: 141.1003
+[2020-05-22 02:57:51.860490 PDT] Save checkpoint to models/ptb/savae_cyc.pt
+[2020-05-22 02:57:51.980360 PDT] Starting epoch 4
+[2020-05-22 02:58:26.335769 PDT] Iters: 0, Epoch: 4, Batch: 101/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.1318, TrainVAE_REC: 101.4908, TrainVAE_KL: 2.6410, TrainVAE_PPL: 133.20, TrainSVI_NLL: 104.19, TrainSVI_REC: 101.42, TrainSVI_KL: 2.7702, TrainSVI_PPL: 133.57, KLInitFinal: 0.00, |Param|: 317.2327, BestValPerf: 147.15, BestEpoch: 3, Beta: 0.7147, Throughput: 91.43 examples/sec
+[2020-05-22 02:59:01.397350 PDT] Iters: 0, Epoch: 4, Batch: 201/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 106.5957, TrainVAE_REC: 103.9727, TrainVAE_KL: 2.6230, TrainVAE_PPL: 135.15, TrainSVI_NLL: 106.58, TrainSVI_REC: 103.83, TrainSVI_KL: 2.7534, TrainSVI_PPL: 135.05, KLInitFinal: 0.00, |Param|: 319.3048, BestValPerf: 147.15, BestEpoch: 3, Beta: 0.7294, Throughput: 89.24 examples/sec
+[2020-05-22 02:59:37.977969 PDT] Iters: 0, Epoch: 4, Batch: 301/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 107.4463, TrainVAE_REC: 104.8300, TrainVAE_KL: 2.6163, TrainVAE_PPL: 135.81, TrainSVI_NLL: 107.41, TrainSVI_REC: 104.67, TrainSVI_KL: 2.7386, TrainSVI_PPL: 135.59, KLInitFinal: 0.00, |Param|: 321.3447, BestValPerf: 147.15, BestEpoch: 3, Beta: 0.7442, Throughput: 87.97 examples/sec
+[2020-05-22 03:00:11.639028 PDT] Iters: 0, Epoch: 4, Batch: 401/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 106.0520, TrainVAE_REC: 103.4782, TrainVAE_KL: 2.5738, TrainVAE_PPL: 136.40, TrainSVI_NLL: 106.02, TrainSVI_REC: 103.32, TrainSVI_KL: 2.6994, TrainSVI_PPL: 136.17, KLInitFinal: 0.00, |Param|: 323.4468, BestValPerf: 147.15, BestEpoch: 3, Beta: 0.7589, Throughput: 88.93 examples/sec
+[2020-05-22 03:00:48.460596 PDT] Iters: 0, Epoch: 4, Batch: 501/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 107.6227, TrainVAE_REC: 105.0709, TrainVAE_KL: 2.5518, TrainVAE_PPL: 137.05, TrainSVI_NLL: 107.57, TrainSVI_REC: 104.89, TrainSVI_KL: 2.6773, TrainSVI_PPL: 136.70, KLInitFinal: 0.00, |Param|: 325.4611, BestValPerf: 147.15, BestEpoch: 3, Beta: 0.7736, Throughput: 87.87 examples/sec
+[2020-05-22 03:01:21.302668 PDT] Iters: 0, Epoch: 4, Batch: 601/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 106.6344, TrainVAE_REC: 104.1264, TrainVAE_KL: 2.5080, TrainVAE_PPL: 136.43, TrainSVI_NLL: 106.59, TrainSVI_REC: 103.95, TrainSVI_KL: 2.6344, TrainSVI_PPL: 136.12, KLInitFinal: 0.00, |Param|: 327.4839, BestValPerf: 147.15, BestEpoch: 3, Beta: 0.7883, Throughput: 88.81 examples/sec
+[2020-05-22 03:01:58.805579 PDT] Iters: 0, Epoch: 4, Batch: 701/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 107.9319, TrainVAE_REC: 105.4362, TrainVAE_KL: 2.4957, TrainVAE_PPL: 136.21, TrainSVI_NLL: 107.87, TrainSVI_REC: 105.25, TrainSVI_KL: 2.6224, TrainSVI_PPL: 135.82, KLInitFinal: 0.00, |Param|: 329.4178, BestValPerf: 147.15, BestEpoch: 3, Beta: 0.8030, Throughput: 87.67 examples/sec
+[2020-05-22 03:02:34.679841 PDT] Iters: 0, Epoch: 4, Batch: 801/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 108.3711, TrainVAE_REC: 105.8996, TrainVAE_KL: 2.4715, TrainVAE_PPL: 135.80, TrainSVI_NLL: 108.31, TrainSVI_REC: 105.71, TrainSVI_KL: 2.5952, TrainSVI_PPL: 135.40, KLInitFinal: 0.00, |Param|: 331.4246, BestValPerf: 147.15, BestEpoch: 3, Beta: 0.8177, Throughput: 87.74 examples/sec
+[2020-05-22 03:03:08.695335 PDT] Iters: 0, Epoch: 4, Batch: 901/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 108.0548, TrainVAE_REC: 105.6083, TrainVAE_KL: 2.4465, TrainVAE_PPL: 136.00, TrainSVI_NLL: 107.98, TrainSVI_REC: 105.41, TrainSVI_KL: 2.5711, TrainSVI_PPL: 135.54, KLInitFinal: 0.00, |Param|: 333.3046, BestValPerf: 147.15, BestEpoch: 3, Beta: 0.8325, Throughput: 88.10 examples/sec
+[2020-05-22 03:03:42.303375 PDT] Iters: 0, Epoch: 4, Batch: 1001/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 107.5346, TrainVAE_REC: 105.1143, TrainVAE_KL: 2.4203, TrainVAE_PPL: 136.12, TrainSVI_NLL: 107.45, TrainSVI_REC: 104.91, TrainSVI_KL: 2.5425, TrainSVI_PPL: 135.58, KLInitFinal: 0.00, |Param|: 335.1829, BestValPerf: 147.15, BestEpoch: 3, Beta: 0.8472, Throughput: 88.50 examples/sec
+[2020-05-22 03:04:18.195535 PDT] Iters: 0, Epoch: 4, Batch: 1101/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 107.8061, TrainVAE_REC: 105.4111, TrainVAE_KL: 2.3949, TrainVAE_PPL: 136.07, TrainSVI_NLL: 107.73, TrainSVI_REC: 105.21, TrainSVI_KL: 2.5171, TrainSVI_PPL: 135.61, KLInitFinal: 0.00, |Param|: 336.9933, BestValPerf: 147.15, BestEpoch: 3, Beta: 0.8619, Throughput: 88.16 examples/sec
+[2020-05-22 03:04:53.409384 PDT] Iters: 0, Epoch: 4, Batch: 1201/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 108.0144, TrainVAE_REC: 105.6505, TrainVAE_KL: 2.3639, TrainVAE_PPL: 136.09, TrainSVI_NLL: 107.94, TrainSVI_REC: 105.45, TrainSVI_KL: 2.4876, TrainSVI_PPL: 135.62, KLInitFinal: 0.00, |Param|: 338.8828, BestValPerf: 147.15, BestEpoch: 3, Beta: 0.8766, Throughput: 88.14 examples/sec
+[2020-05-22 03:05:32.660008 PDT] Iters: 0, Epoch: 4, Batch: 1301/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 108.8039, TrainVAE_REC: 106.4606, TrainVAE_KL: 2.3434, TrainVAE_PPL: 136.20, TrainSVI_NLL: 108.73, TrainSVI_REC: 106.26, TrainSVI_KL: 2.4645, TrainSVI_PPL: 135.73, KLInitFinal: 0.00, |Param|: 340.6586, BestValPerf: 147.15, BestEpoch: 3, Beta: 0.8913, Throughput: 87.41 examples/sec
+[2020-05-22 03:05:51.883966 PDT] Time Elapsed: 479.9s
+[2020-05-22 03:05:51.884194 PDT] --------------------------------
+[2020-05-22 03:05:51.884301 PDT] Checking validation perf...
+---------------------------------
+| Epoch            | 4          |
+| Mode             | Val        |
+| LR               | 0.00079389 |
+| Epoch Train Time | 479.9      |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 107.22     |
+| VAE REC          | 105.14     |
+| VAE KL           | 2.0774     |
+| VAE PPL          | 134.12     |
+| SVI NLL          | 107.05     |
+| SVI REC          | 104.89     |
+| SVI KL           | 2.1596     |
+| SVI PPL          | 133.1      |
+---------------------------------
+[2020-05-22 03:06:14.336670 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 107.2195, VAE REC: 105.1421, VAE KL: 2.0774, VAE PPL: 134.1183, SVI NLL: 107.0521, SVI REC: 104.8925, SVI KL: 2.1596, SVI PPL: 133.0966
+[2020-05-22 03:06:14.337578 PDT] --------------------------------
+[2020-05-22 03:06:14.337828 PDT] Checking test perf...
+---------------------------------
+| Epoch            | 4          |
+| Mode             | Test       |
+| LR               | 0.00079389 |
+| Epoch Train Time | 479.9      |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 106.27     |
+| VAE REC          | 104.27     |
+| VAE KL           | 2.0009     |
+| VAE PPL          | 127.61     |
+| SVI NLL          | 106.11     |
+| SVI REC          | 104.06     |
+| SVI KL           | 2.0422     |
+| SVI PPL          | 126.62     |
+---------------------------------
+[2020-05-22 03:06:38.152019 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 106.2749, VAE REC: 104.2740, VAE KL: 2.0009, VAE PPL: 127.6079, SVI NLL: 106.1051, SVI REC: 104.0629, SVI KL: 2.0422, SVI PPL: 126.6230
+[2020-05-22 03:06:38.179250 PDT] Save checkpoint to models/ptb/savae_cyc.pt
+[2020-05-22 03:06:38.300107 PDT] Starting epoch 5
+[2020-05-22 03:07:15.417944 PDT] Iters: 0, Epoch: 5, Batch: 101/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 109.0920, TrainVAE_REC: 107.1085, TrainVAE_KL: 1.9835, TrainVAE_PPL: 116.63, TrainSVI_NLL: 109.01, TrainSVI_REC: 106.89, TrainSVI_KL: 2.1213, TrainSVI_PPL: 116.22, KLInitFinal: 0.00, |Param|: 343.4442, BestValPerf: 133.10, BestEpoch: 4, Beta: 0.9147, Throughput: 81.01 examples/sec
+[2020-05-22 03:07:51.524072 PDT] Iters: 0, Epoch: 5, Batch: 201/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 108.5790, TrainVAE_REC: 106.5932, TrainVAE_KL: 1.9858, TrainVAE_PPL: 118.03, TrainSVI_NLL: 108.47, TrainSVI_REC: 106.38, TrainSVI_KL: 2.0872, TrainSVI_PPL: 117.45, KLInitFinal: 0.00, |Param|: 345.1243, BestValPerf: 133.10, BestEpoch: 4, Beta: 0.9294, Throughput: 84.54 examples/sec
+[2020-05-22 03:08:25.314273 PDT] Iters: 0, Epoch: 5, Batch: 301/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 106.7523, TrainVAE_REC: 104.8017, TrainVAE_KL: 1.9507, TrainVAE_PPL: 118.42, TrainSVI_NLL: 106.68, TrainSVI_REC: 104.63, TrainSVI_KL: 2.0513, TrainSVI_PPL: 118.06, KLInitFinal: 0.00, |Param|: 346.6975, BestValPerf: 133.10, BestEpoch: 4, Beta: 0.9442, Throughput: 87.08 examples/sec
+[2020-05-22 03:08:57.558183 PDT] Iters: 0, Epoch: 5, Batch: 401/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.9088, TrainVAE_REC: 102.9845, TrainVAE_KL: 1.9243, TrainVAE_PPL: 118.75, TrainSVI_NLL: 104.83, TrainSVI_REC: 102.81, TrainSVI_KL: 2.0218, TrainSVI_PPL: 118.33, KLInitFinal: 0.00, |Param|: 348.2512, BestValPerf: 133.10, BestEpoch: 4, Beta: 0.9589, Throughput: 88.75 examples/sec
+[2020-05-22 03:09:34.499987 PDT] Iters: 0, Epoch: 5, Batch: 501/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 105.3798, TrainVAE_REC: 103.4756, TrainVAE_KL: 1.9043, TrainVAE_PPL: 119.03, TrainSVI_NLL: 105.31, TrainSVI_REC: 103.31, TrainSVI_KL: 2.0026, TrainSVI_PPL: 118.68, KLInitFinal: 0.00, |Param|: 349.8686, BestValPerf: 133.10, BestEpoch: 4, Beta: 0.9736, Throughput: 87.78 examples/sec
+[2020-05-22 03:10:08.826528 PDT] Iters: 0, Epoch: 5, Batch: 601/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.1926, TrainVAE_REC: 102.3233, TrainVAE_KL: 1.8693, TrainVAE_PPL: 118.82, TrainSVI_NLL: 104.12, TrainSVI_REC: 102.15, TrainSVI_KL: 1.9688, TrainSVI_PPL: 118.42, KLInitFinal: 0.00, |Param|: 351.3860, BestValPerf: 133.10, BestEpoch: 4, Beta: 0.9883, Throughput: 88.21 examples/sec
+[2020-05-22 03:10:43.501099 PDT] Iters: 0, Epoch: 5, Batch: 701/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.1582, TrainVAE_REC: 102.3147, TrainVAE_KL: 1.8435, TrainVAE_PPL: 119.30, TrainSVI_NLL: 104.09, TrainSVI_REC: 102.14, TrainSVI_KL: 1.9443, TrainSVI_PPL: 118.90, KLInitFinal: 0.00, |Param|: 352.8807, BestValPerf: 133.10, BestEpoch: 4, Beta: 1.0000, Throughput: 88.44 examples/sec
+[2020-05-22 03:11:19.861549 PDT] Iters: 0, Epoch: 5, Batch: 801/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.5538, TrainVAE_REC: 102.7328, TrainVAE_KL: 1.8210, TrainVAE_PPL: 119.56, TrainSVI_NLL: 104.48, TrainSVI_REC: 102.56, TrainSVI_KL: 1.9231, TrainSVI_PPL: 119.15, KLInitFinal: 0.00, |Param|: 354.3667, BestValPerf: 133.10, BestEpoch: 4, Beta: 1.0000, Throughput: 88.19 examples/sec
+[2020-05-22 03:11:55.146466 PDT] Iters: 0, Epoch: 5, Batch: 901/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.7720, TrainVAE_REC: 102.9676, TrainVAE_KL: 1.8044, TrainVAE_PPL: 119.73, TrainSVI_NLL: 104.69, TrainSVI_REC: 102.78, TrainSVI_KL: 1.9073, TrainSVI_PPL: 119.29, KLInitFinal: 0.00, |Param|: 355.8153, BestValPerf: 133.10, BestEpoch: 4, Beta: 1.0000, Throughput: 88.37 examples/sec
+[2020-05-22 03:12:29.425784 PDT] Iters: 0, Epoch: 5, Batch: 1001/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.6349, TrainVAE_REC: 102.8468, TrainVAE_KL: 1.7881, TrainVAE_PPL: 120.47, TrainSVI_NLL: 104.56, TrainSVI_REC: 102.67, TrainSVI_KL: 1.8895, TrainSVI_PPL: 120.05, KLInitFinal: 0.00, |Param|: 357.2109, BestValPerf: 133.10, BestEpoch: 4, Beta: 1.0000, Throughput: 88.37 examples/sec
+[2020-05-22 03:13:07.749757 PDT] Iters: 0, Epoch: 5, Batch: 1101/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 105.3046, TrainVAE_REC: 103.5329, TrainVAE_KL: 1.7717, TrainVAE_PPL: 121.07, TrainSVI_NLL: 105.23, TrainSVI_REC: 103.36, TrainSVI_KL: 1.8739, TrainSVI_PPL: 120.65, KLInitFinal: 0.00, |Param|: 358.6564, BestValPerf: 133.10, BestEpoch: 4, Beta: 1.0000, Throughput: 87.35 examples/sec
+[2020-05-22 03:13:41.031107 PDT] Iters: 0, Epoch: 5, Batch: 1201/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.9376, TrainVAE_REC: 103.1837, TrainVAE_KL: 1.7539, TrainVAE_PPL: 121.03, TrainSVI_NLL: 104.86, TrainSVI_REC: 103.00, TrainSVI_KL: 1.8555, TrainSVI_PPL: 120.59, KLInitFinal: 0.00, |Param|: 360.0622, BestValPerf: 133.10, BestEpoch: 4, Beta: 1.0000, Throughput: 87.84 examples/sec
+[2020-05-22 03:14:20.971432 PDT] Iters: 0, Epoch: 5, Batch: 1301/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 106.0326, TrainVAE_REC: 104.2893, TrainVAE_KL: 1.7433, TrainVAE_PPL: 121.33, TrainSVI_NLL: 105.95, TrainSVI_REC: 104.11, TrainSVI_KL: 1.8437, TrainSVI_PPL: 120.89, KLInitFinal: 0.00, |Param|: 361.5130, BestValPerf: 133.10, BestEpoch: 4, Beta: 1.0000, Throughput: 87.11 examples/sec
+[2020-05-22 03:14:41.499994 PDT] Time Elapsed: 483.2s
+[2020-05-22 03:14:41.500263 PDT] --------------------------------
+[2020-05-22 03:14:41.500407 PDT] Checking validation perf...
+---------------------------------
+| Epoch            | 5          |
+| Mode             | Val        |
+| LR               | 0.00065451 |
+| Epoch Train Time | 483.2      |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 106.2      |
+| VAE REC          | 104.57     |
+| VAE KL           | 1.6282     |
+| VAE PPL          | 128.01     |
+| SVI NLL          | 106.13     |
+| SVI REC          | 104.34     |
+| SVI KL           | 1.7851     |
+| SVI PPL          | 127.58     |
+---------------------------------
+[2020-05-22 03:15:03.094859 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 106.1985, VAE REC: 104.5704, VAE KL: 1.6282, VAE PPL: 128.0058, SVI NLL: 106.1251, SVI REC: 104.3400, SVI KL: 1.7851, SVI PPL: 127.5770
+[2020-05-22 03:15:03.095282 PDT] --------------------------------
+[2020-05-22 03:15:03.095409 PDT] Checking test perf...
+---------------------------------
+| Epoch            | 5          |
+| Mode             | Test       |
+| LR               | 0.00065451 |
+| Epoch Train Time | 483.2      |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 105.22     |
+| VAE REC          | 103.66     |
+| VAE KL           | 1.5636     |
+| VAE PPL          | 121.62     |
+| SVI NLL          | 105.02     |
+| SVI REC          | 103.4      |
+| SVI KL           | 1.6134     |
+| SVI PPL          | 120.5      |
+---------------------------------
+[2020-05-22 03:15:27.195465 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 105.2221, VAE REC: 103.6585, VAE KL: 1.5636, VAE PPL: 121.6228, SVI NLL: 105.0180, SVI REC: 103.4047, SVI KL: 1.6134, SVI PPL: 120.4958
+[2020-05-22 03:15:27.218419 PDT] Save checkpoint to models/ptb/savae_cyc.pt
+[2020-05-22 03:15:27.333179 PDT] Starting epoch 6
+[2020-05-22 03:16:02.082157 PDT] Iters: 0, Epoch: 6, Batch: 101/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.0831, TrainVAE_REC: 102.4797, TrainVAE_KL: 1.6034, TrainVAE_PPL: 113.02, TrainSVI_NLL: 103.98, TrainSVI_REC: 102.30, TrainSVI_KL: 1.6784, TrainSVI_PPL: 112.48, KLInitFinal: 0.00, |Param|: 363.4785, BestValPerf: 127.58, BestEpoch: 5, Beta: 1.0000, Throughput: 90.68 examples/sec
+[2020-05-22 03:16:37.116661 PDT] Iters: 0, Epoch: 6, Batch: 201/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 105.4906, TrainVAE_REC: 103.9004, TrainVAE_KL: 1.5902, TrainVAE_PPL: 112.19, TrainSVI_NLL: 105.46, TrainSVI_REC: 103.78, TrainSVI_KL: 1.6743, TrainSVI_PPL: 112.02, KLInitFinal: 0.00, |Param|: 364.6462, BestValPerf: 127.58, BestEpoch: 5, Beta: 1.0000, Throughput: 88.92 examples/sec
+[2020-05-22 03:17:14.288375 PDT] Iters: 0, Epoch: 6, Batch: 301/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.9408, TrainVAE_REC: 103.3634, TrainVAE_KL: 1.5773, TrainVAE_PPL: 109.70, TrainSVI_NLL: 104.89, TrainSVI_REC: 103.22, TrainSVI_KL: 1.6691, TrainSVI_PPL: 109.47, KLInitFinal: 0.00, |Param|: 365.7587, BestValPerf: 127.58, BestEpoch: 5, Beta: 1.0000, Throughput: 87.03 examples/sec
+[2020-05-22 03:17:46.576642 PDT] Iters: 0, Epoch: 6, Batch: 401/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.8504, TrainVAE_REC: 101.2998, TrainVAE_KL: 1.5506, TrainVAE_PPL: 109.93, TrainSVI_NLL: 102.79, TrainSVI_REC: 101.14, TrainSVI_KL: 1.6442, TrainSVI_PPL: 109.62, KLInitFinal: 0.00, |Param|: 366.8269, BestValPerf: 127.58, BestEpoch: 5, Beta: 1.0000, Throughput: 89.07 examples/sec
+[2020-05-22 03:18:21.919223 PDT] Iters: 0, Epoch: 6, Batch: 501/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 103.4579, TrainVAE_REC: 101.9108, TrainVAE_KL: 1.5472, TrainVAE_PPL: 110.53, TrainSVI_NLL: 103.38, TrainSVI_REC: 101.74, TrainSVI_KL: 1.6408, TrainSVI_PPL: 110.16, KLInitFinal: 0.00, |Param|: 367.9513, BestValPerf: 127.58, BestEpoch: 5, Beta: 1.0000, Throughput: 88.86 examples/sec
+[2020-05-22 03:18:53.306102 PDT] Iters: 0, Epoch: 6, Batch: 601/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.6690, TrainVAE_REC: 100.1450, TrainVAE_KL: 1.5241, TrainVAE_PPL: 110.40, TrainSVI_NLL: 101.59, TrainSVI_REC: 99.97, TrainSVI_KL: 1.6188, TrainSVI_PPL: 110.01, KLInitFinal: 0.00, |Param|: 368.9988, BestValPerf: 127.58, BestEpoch: 5, Beta: 1.0000, Throughput: 90.43 examples/sec
+[2020-05-22 03:19:29.431499 PDT] Iters: 0, Epoch: 6, Batch: 701/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.3744, TrainVAE_REC: 100.8489, TrainVAE_KL: 1.5255, TrainVAE_PPL: 111.27, TrainSVI_NLL: 102.31, TrainSVI_REC: 100.69, TrainSVI_KL: 1.6176, TrainSVI_PPL: 110.93, KLInitFinal: 0.00, |Param|: 370.0785, BestValPerf: 127.58, BestEpoch: 5, Beta: 1.0000, Throughput: 89.81 examples/sec
+[2020-05-22 03:20:03.495873 PDT] Iters: 0, Epoch: 6, Batch: 801/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.2040, TrainVAE_REC: 100.6815, TrainVAE_KL: 1.5225, TrainVAE_PPL: 111.15, TrainSVI_NLL: 102.15, TrainSVI_REC: 100.54, TrainSVI_KL: 1.6138, TrainSVI_PPL: 110.88, KLInitFinal: 0.00, |Param|: 371.1366, BestValPerf: 127.58, BestEpoch: 5, Beta: 1.0000, Throughput: 89.95 examples/sec
+[2020-05-22 03:20:37.623968 PDT] Iters: 0, Epoch: 6, Batch: 901/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.1170, TrainVAE_REC: 100.5963, TrainVAE_KL: 1.5206, TrainVAE_PPL: 111.24, TrainSVI_NLL: 102.06, TrainSVI_REC: 100.45, TrainSVI_KL: 1.6128, TrainSVI_PPL: 110.95, KLInitFinal: 0.00, |Param|: 372.2169, BestValPerf: 127.58, BestEpoch: 5, Beta: 1.0000, Throughput: 90.04 examples/sec
+[2020-05-22 03:21:10.793906 PDT] Iters: 0, Epoch: 6, Batch: 1001/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.9883, TrainVAE_REC: 100.4691, TrainVAE_KL: 1.5192, TrainVAE_PPL: 111.15, TrainSVI_NLL: 101.92, TrainSVI_REC: 100.31, TrainSVI_KL: 1.6106, TrainSVI_PPL: 110.82, KLInitFinal: 0.00, |Param|: 373.2553, BestValPerf: 127.58, BestEpoch: 5, Beta: 1.0000, Throughput: 90.45 examples/sec
+[2020-05-22 03:21:48.576149 PDT] Iters: 0, Epoch: 6, Batch: 1101/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 103.0660, TrainVAE_REC: 101.5452, TrainVAE_KL: 1.5208, TrainVAE_PPL: 111.29, TrainSVI_NLL: 103.01, TrainSVI_REC: 101.40, TrainSVI_KL: 1.6115, TrainSVI_PPL: 111.00, KLInitFinal: 0.00, |Param|: 374.2950, BestValPerf: 127.58, BestEpoch: 5, Beta: 1.0000, Throughput: 89.49 examples/sec
+[2020-05-22 03:22:23.504002 PDT] Iters: 0, Epoch: 6, Batch: 1201/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 103.2679, TrainVAE_REC: 101.7513, TrainVAE_KL: 1.5165, TrainVAE_PPL: 111.48, TrainSVI_NLL: 103.20, TrainSVI_REC: 101.59, TrainSVI_KL: 1.6068, TrainSVI_PPL: 111.14, KLInitFinal: 0.00, |Param|: 375.2968, BestValPerf: 127.58, BestEpoch: 5, Beta: 1.0000, Throughput: 89.44 examples/sec
+[2020-05-22 03:23:02.198222 PDT] Iters: 0, Epoch: 6, Batch: 1301/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.0923, TrainVAE_REC: 102.5735, TrainVAE_KL: 1.5188, TrainVAE_PPL: 111.66, TrainSVI_NLL: 104.04, TrainSVI_REC: 102.43, TrainSVI_KL: 1.6093, TrainSVI_PPL: 111.41, KLInitFinal: 0.00, |Param|: 376.2910, BestValPerf: 127.58, BestEpoch: 5, Beta: 1.0000, Throughput: 88.40 examples/sec
+[2020-05-22 03:23:23.181764 PDT] Time Elapsed: 475.8s
+[2020-05-22 03:23:23.181965 PDT] --------------------------------
+[2020-05-22 03:23:23.182053 PDT] Checking validation perf...
+-------------------------------
+| Epoch            | 6        |
+| Mode             | Val      |
+| LR               | 0.0005   |
+| Epoch Train Time | 475.85   |
+| AR NLL           | 0        |
+| AR PPL           | 1        |
+| VAE NLL          | 105.41   |
+| VAE REC          | 104.05   |
+| VAE KL           | 1.3563   |
+| VAE PPL          | 123.48   |
+| SVI NLL          | 105.31   |
+| SVI REC          | 103.8    |
+| SVI KL           | 1.5124   |
+| SVI PPL          | 122.91   |
+-------------------------------
+[2020-05-22 03:23:43.536099 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 105.4104, VAE REC: 104.0541, VAE KL: 1.3563, VAE PPL: 123.4784, SVI NLL: 105.3100, SVI REC: 103.7975, SVI KL: 1.5124, SVI PPL: 122.9130
+[2020-05-22 03:23:43.536538 PDT] --------------------------------
+[2020-05-22 03:23:43.536699 PDT] Checking test perf...
+-------------------------------
+| Epoch            | 6        |
+| Mode             | Test     |
+| LR               | 0.0005   |
+| Epoch Train Time | 475.85   |
+| AR NLL           | 0        |
+| AR PPL           | 1        |
+| VAE NLL          | 104.41   |
+| VAE REC          | 103.1    |
+| VAE KL           | 1.3054   |
+| VAE PPL          | 117.18   |
+| SVI NLL          | 104.33   |
+| SVI REC          | 102.91   |
+| SVI KL           | 1.4162   |
+| SVI PPL          | 116.76   |
+-------------------------------
+[2020-05-22 03:24:06.071118 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 104.4069, VAE REC: 103.1015, VAE KL: 1.3054, VAE PPL: 117.1821, SVI NLL: 104.3272, SVI REC: 102.9110, SVI KL: 1.4162, SVI PPL: 116.7571
+[2020-05-22 03:24:06.100325 PDT] Save checkpoint to models/ptb/savae_cyc.pt
+[2020-05-22 03:24:06.223127 PDT] Starting epoch 7
+[2020-05-22 03:24:39.986640 PDT] Iters: 0, Epoch: 7, Batch: 101/1359, LR: 0.0003, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 96.8950, TrainVAE_REC: 95.4670, TrainVAE_KL: 1.4280, TrainVAE_PPL: 100.74, TrainSVI_NLL: 96.90, TrainSVI_REC: 95.40, TrainSVI_KL: 1.5058, TrainSVI_PPL: 100.78, KLInitFinal: 0.00, |Param|: 377.5980, BestValPerf: 122.91, BestEpoch: 6, Beta: 1.0000, Throughput: 91.05 examples/sec
+[2020-05-22 03:25:10.417642 PDT] Iters: 0, Epoch: 7, Batch: 201/1359, LR: 0.0003, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 95.2239, TrainVAE_REC: 93.8102, TrainVAE_KL: 1.4136, TrainVAE_PPL: 99.86, TrainSVI_NLL: 95.22, TrainSVI_REC: 93.73, TrainSVI_KL: 1.4890, TrainSVI_PPL: 99.84, KLInitFinal: 0.00, |Param|: 378.3468, BestValPerf: 122.91, BestEpoch: 6, Beta: 1.0000, Throughput: 95.94 examples/sec
+[2020-05-22 03:25:43.573557 PDT] Iters: 0, Epoch: 7, Batch: 301/1359, LR: 0.0003, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 96.7732, TrainVAE_REC: 95.3513, TrainVAE_KL: 1.4219, TrainVAE_PPL: 100.78, TrainSVI_NLL: 96.75, TrainSVI_REC: 95.25, TrainSVI_KL: 1.4977, TrainSVI_PPL: 100.68, KLInitFinal: 0.00, |Param|: 379.1057, BestValPerf: 122.91, BestEpoch: 6, Beta: 1.0000, Throughput: 95.53 examples/sec
+[2020-05-22 03:26:18.747577 PDT] Iters: 0, Epoch: 7, Batch: 401/1359, LR: 0.0003, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.7236, TrainVAE_REC: 97.2848, TrainVAE_KL: 1.4388, TrainVAE_PPL: 101.71, TrainSVI_NLL: 98.70, TrainSVI_REC: 97.18, TrainSVI_KL: 1.5184, TrainSVI_PPL: 101.59, KLInitFinal: 0.00, |Param|: 379.7969, BestValPerf: 122.91, BestEpoch: 6, Beta: 1.0000, Throughput: 93.21 examples/sec
+[2020-05-22 03:26:54.616692 PDT] Iters: 0, Epoch: 7, Batch: 501/1359, LR: 0.0003, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 99.9614, TrainVAE_REC: 98.5178, TrainVAE_KL: 1.4436, TrainVAE_PPL: 102.89, TrainSVI_NLL: 99.93, TrainSVI_REC: 98.41, TrainSVI_KL: 1.5226, TrainSVI_PPL: 102.76, KLInitFinal: 0.00, |Param|: 380.4873, BestValPerf: 122.91, BestEpoch: 6, Beta: 1.0000, Throughput: 91.96 examples/sec
+[2020-05-22 03:27:26.779350 PDT] Iters: 0, Epoch: 7, Batch: 601/1359, LR: 0.0003, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 99.5413, TrainVAE_REC: 98.1098, TrainVAE_KL: 1.4315, TrainVAE_PPL: 102.85, TrainSVI_NLL: 99.54, TrainSVI_REC: 98.03, TrainSVI_KL: 1.5119, TrainSVI_PPL: 102.84, KLInitFinal: 0.00, |Param|: 381.2117, BestValPerf: 122.91, BestEpoch: 6, Beta: 1.0000, Throughput: 92.57 examples/sec
+[2020-05-22 03:28:04.286699 PDT] Iters: 0, Epoch: 7, Batch: 701/1359, LR: 0.0003, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.0102, TrainVAE_REC: 99.5713, TrainVAE_KL: 1.4388, TrainVAE_PPL: 103.41, TrainSVI_NLL: 101.01, TrainSVI_REC: 99.49, TrainSVI_KL: 1.5186, TrainSVI_PPL: 103.42, KLInitFinal: 0.00, |Param|: 381.9288, BestValPerf: 122.91, BestEpoch: 6, Beta: 1.0000, Throughput: 90.91 examples/sec
+[2020-05-22 03:28:43.554329 PDT] Iters: 0, Epoch: 7, Batch: 801/1359, LR: 0.0003, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.3594, TrainVAE_REC: 100.9208, TrainVAE_KL: 1.4386, TrainVAE_PPL: 104.18, TrainSVI_NLL: 102.38, TrainSVI_REC: 100.86, TrainSVI_KL: 1.5232, TrainSVI_PPL: 104.27, KLInitFinal: 0.00, |Param|: 382.6105, BestValPerf: 122.91, BestEpoch: 6, Beta: 1.0000, Throughput: 89.40 examples/sec
+[2020-05-22 03:29:14.915516 PDT] Iters: 0, Epoch: 7, Batch: 901/1359, LR: 0.0003, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.4292, TrainVAE_REC: 100.0007, TrainVAE_KL: 1.4286, TrainVAE_PPL: 104.12, TrainSVI_NLL: 101.45, TrainSVI_REC: 99.93, TrainSVI_KL: 1.5124, TrainSVI_PPL: 104.20, KLInitFinal: 0.00, |Param|: 383.3154, BestValPerf: 122.91, BestEpoch: 6, Beta: 1.0000, Throughput: 90.45 examples/sec
+[2020-05-22 03:29:52.150781 PDT] Iters: 0, Epoch: 7, Batch: 1001/1359, LR: 0.0003, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.2459, TrainVAE_REC: 100.8200, TrainVAE_KL: 1.4260, TrainVAE_PPL: 104.29, TrainSVI_NLL: 102.26, TrainSVI_REC: 100.74, TrainSVI_KL: 1.5118, TrainSVI_PPL: 104.34, KLInitFinal: 0.00, |Param|: 384.0048, BestValPerf: 122.91, BestEpoch: 6, Beta: 1.0000, Throughput: 89.70 examples/sec
+[2020-05-22 03:30:24.942615 PDT] Iters: 0, Epoch: 7, Batch: 1101/1359, LR: 0.0003, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.9779, TrainVAE_REC: 100.5533, TrainVAE_KL: 1.4245, TrainVAE_PPL: 104.21, TrainSVI_NLL: 101.98, TrainSVI_REC: 100.48, TrainSVI_KL: 1.5071, TrainSVI_PPL: 104.24, KLInitFinal: 0.00, |Param|: 384.6425, BestValPerf: 122.91, BestEpoch: 6, Beta: 1.0000, Throughput: 89.84 examples/sec
+[2020-05-22 03:31:03.109272 PDT] Iters: 0, Epoch: 7, Batch: 1201/1359, LR: 0.0003, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.6245, TrainVAE_REC: 101.1929, TrainVAE_KL: 1.4316, TrainVAE_PPL: 104.28, TrainSVI_NLL: 102.63, TrainSVI_REC: 101.12, TrainSVI_KL: 1.5116, TrainSVI_PPL: 104.32, KLInitFinal: 0.00, |Param|: 385.2993, BestValPerf: 122.91, BestEpoch: 6, Beta: 1.0000, Throughput: 88.88 examples/sec
+[2020-05-22 03:31:38.092697 PDT] Iters: 0, Epoch: 7, Batch: 1301/1359, LR: 0.0003, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.6228, TrainVAE_REC: 101.1906, TrainVAE_KL: 1.4322, TrainVAE_PPL: 104.21, TrainSVI_NLL: 102.64, TrainSVI_REC: 101.13, TrainSVI_KL: 1.5099, TrainSVI_PPL: 104.28, KLInitFinal: 0.00, |Param|: 385.9649, BestValPerf: 122.91, BestEpoch: 6, Beta: 1.0000, Throughput: 89.01 examples/sec
+[2020-05-22 03:31:58.922691 PDT] Time Elapsed: 472.7s
+[2020-05-22 03:31:58.922879 PDT] --------------------------------
+[2020-05-22 03:31:58.922980 PDT] Checking validation perf...
+---------------------------------
+| Epoch            | 7          |
+| Mode             | Val        |
+| LR               | 0.00034549 |
+| Epoch Train Time | 472.7      |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 105.06     |
+| VAE REC          | 103.68     |
+| VAE KL           | 1.3794     |
+| VAE PPL          | 121.53     |
+| SVI NLL          | 104.97     |
+| SVI REC          | 103.49     |
+| SVI KL           | 1.4731     |
+| SVI PPL          | 121.01     |
+---------------------------------
+[2020-05-22 03:32:19.717222 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 105.0618, VAE REC: 103.6824, VAE KL: 1.3794, VAE PPL: 121.5271, SVI NLL: 104.9679, SVI REC: 103.4948, SVI KL: 1.4731, SVI PPL: 121.0073
+[2020-05-22 03:32:19.717787 PDT] --------------------------------
+[2020-05-22 03:32:19.717938 PDT] Checking test perf...
+---------------------------------
+| Epoch            | 7          |
+| Mode             | Test       |
+| LR               | 0.00034549 |
+| Epoch Train Time | 472.7      |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 104.01     |
+| VAE REC          | 102.69     |
+| VAE KL           | 1.3168     |
+| VAE PPL          | 115.07     |
+| SVI NLL          | 103.94     |
+| SVI REC          | 102.54     |
+| SVI KL           | 1.3988     |
+| SVI PPL          | 114.7      |
+---------------------------------
+[2020-05-22 03:32:43.454587 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 104.0089, VAE REC: 102.6921, VAE KL: 1.3168, VAE PPL: 115.0737, SVI NLL: 103.9373, SVI REC: 102.5385, SVI KL: 1.3988, SVI PPL: 114.6984
+[2020-05-22 03:32:43.476479 PDT] Save checkpoint to models/ptb/savae_cyc.pt
+[2020-05-22 03:32:43.603726 PDT] Starting epoch 8
+[2020-05-22 03:33:19.112978 PDT] Iters: 0, Epoch: 8, Batch: 101/1359, LR: 0.0002, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 100.3139, TrainVAE_REC: 98.9365, TrainVAE_KL: 1.3774, TrainVAE_PPL: 97.66, TrainSVI_NLL: 100.09, TrainSVI_REC: 98.64, TrainSVI_KL: 1.4529, TrainSVI_PPL: 96.68, KLInitFinal: 0.00, |Param|: 386.7938, BestValPerf: 121.01, BestEpoch: 7, Beta: 1.0000, Throughput: 88.17 examples/sec
+[2020-05-22 03:33:54.685855 PDT] Iters: 0, Epoch: 8, Batch: 201/1359, LR: 0.0002, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 100.9748, TrainVAE_REC: 99.5897, TrainVAE_KL: 1.3852, TrainVAE_PPL: 97.06, TrainSVI_NLL: 100.89, TrainSVI_REC: 99.43, TrainSVI_KL: 1.4639, TrainSVI_PPL: 96.69, KLInitFinal: 0.00, |Param|: 387.2065, BestValPerf: 121.01, BestEpoch: 7, Beta: 1.0000, Throughput: 88.26 examples/sec
+[2020-05-22 03:34:31.038229 PDT] Iters: 0, Epoch: 8, Batch: 301/1359, LR: 0.0002, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.6578, TrainVAE_REC: 100.2562, TrainVAE_KL: 1.4016, TrainVAE_PPL: 98.62, TrainSVI_NLL: 101.61, TrainSVI_REC: 100.13, TrainSVI_KL: 1.4805, TrainSVI_PPL: 98.42, KLInitFinal: 0.00, |Param|: 387.6050, BestValPerf: 121.01, BestEpoch: 7, Beta: 1.0000, Throughput: 86.53 examples/sec
+[2020-05-22 03:35:07.162748 PDT] Iters: 0, Epoch: 8, Batch: 401/1359, LR: 0.0002, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.8913, TrainVAE_REC: 101.4930, TrainVAE_KL: 1.3983, TrainVAE_PPL: 98.98, TrainSVI_NLL: 102.83, TrainSVI_REC: 101.35, TrainSVI_KL: 1.4794, TrainSVI_PPL: 98.71, KLInitFinal: 0.00, |Param|: 388.0248, BestValPerf: 121.01, BestEpoch: 7, Beta: 1.0000, Throughput: 85.78 examples/sec
+[2020-05-22 03:35:41.398822 PDT] Iters: 0, Epoch: 8, Batch: 501/1359, LR: 0.0002, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.3528, TrainVAE_REC: 100.9523, TrainVAE_KL: 1.4005, TrainVAE_PPL: 99.35, TrainSVI_NLL: 102.27, TrainSVI_REC: 100.79, TrainSVI_KL: 1.4739, TrainSVI_PPL: 98.97, KLInitFinal: 0.00, |Param|: 388.4379, BestValPerf: 121.01, BestEpoch: 7, Beta: 1.0000, Throughput: 87.22 examples/sec
+[2020-05-22 03:36:17.743162 PDT] Iters: 0, Epoch: 8, Batch: 601/1359, LR: 0.0002, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.8790, TrainVAE_REC: 101.4839, TrainVAE_KL: 1.3951, TrainVAE_PPL: 99.24, TrainSVI_NLL: 102.80, TrainSVI_REC: 101.33, TrainSVI_KL: 1.4675, TrainSVI_PPL: 98.88, KLInitFinal: 0.00, |Param|: 388.8632, BestValPerf: 121.01, BestEpoch: 7, Beta: 1.0000, Throughput: 87.04 examples/sec
+[2020-05-22 03:36:53.815263 PDT] Iters: 0, Epoch: 8, Batch: 701/1359, LR: 0.0002, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.7318, TrainVAE_REC: 101.3334, TrainVAE_KL: 1.3985, TrainVAE_PPL: 99.42, TrainSVI_NLL: 102.67, TrainSVI_REC: 101.20, TrainSVI_KL: 1.4696, TrainSVI_PPL: 99.13, KLInitFinal: 0.00, |Param|: 389.2496, BestValPerf: 121.01, BestEpoch: 7, Beta: 1.0000, Throughput: 86.83 examples/sec
+[2020-05-22 03:37:32.748766 PDT] Iters: 0, Epoch: 8, Batch: 801/1359, LR: 0.0002, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 103.2752, TrainVAE_REC: 101.8710, TrainVAE_KL: 1.4042, TrainVAE_PPL: 99.77, TrainSVI_NLL: 103.22, TrainSVI_REC: 101.75, TrainSVI_KL: 1.4759, TrainSVI_PPL: 99.53, KLInitFinal: 0.00, |Param|: 389.6369, BestValPerf: 121.01, BestEpoch: 7, Beta: 1.0000, Throughput: 86.08 examples/sec
+[2020-05-22 03:38:08.646933 PDT] Iters: 0, Epoch: 8, Batch: 901/1359, LR: 0.0002, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 103.2015, TrainVAE_REC: 101.7966, TrainVAE_KL: 1.4049, TrainVAE_PPL: 99.80, TrainSVI_NLL: 103.16, TrainSVI_REC: 101.68, TrainSVI_KL: 1.4757, TrainSVI_PPL: 99.60, KLInitFinal: 0.00, |Param|: 390.0194, BestValPerf: 121.01, BestEpoch: 7, Beta: 1.0000, Throughput: 85.95 examples/sec
+[2020-05-22 03:38:41.792798 PDT] Iters: 0, Epoch: 8, Batch: 1001/1359, LR: 0.0002, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.4420, TrainVAE_REC: 101.0438, TrainVAE_KL: 1.3982, TrainVAE_PPL: 99.67, TrainSVI_NLL: 102.41, TrainSVI_REC: 100.95, TrainSVI_KL: 1.4692, TrainSVI_PPL: 99.55, KLInitFinal: 0.00, |Param|: 390.4059, BestValPerf: 121.01, BestEpoch: 7, Beta: 1.0000, Throughput: 86.63 examples/sec
+[2020-05-22 03:39:16.610387 PDT] Iters: 0, Epoch: 8, Batch: 1101/1359, LR: 0.0002, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.3950, TrainVAE_REC: 100.9939, TrainVAE_KL: 1.4011, TrainVAE_PPL: 99.79, TrainSVI_NLL: 102.39, TrainSVI_REC: 100.91, TrainSVI_KL: 1.4737, TrainSVI_PPL: 99.75, KLInitFinal: 0.00, |Param|: 390.7840, BestValPerf: 121.01, BestEpoch: 7, Beta: 1.0000, Throughput: 86.78 examples/sec
+[2020-05-22 03:39:52.194239 PDT] Iters: 0, Epoch: 8, Batch: 1201/1359, LR: 0.0002, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.4097, TrainVAE_REC: 101.0086, TrainVAE_KL: 1.4011, TrainVAE_PPL: 99.82, TrainSVI_NLL: 102.40, TrainSVI_REC: 100.93, TrainSVI_KL: 1.4732, TrainSVI_PPL: 99.78, KLInitFinal: 0.00, |Param|: 391.1616, BestValPerf: 121.01, BestEpoch: 7, Beta: 1.0000, Throughput: 86.86 examples/sec
+[2020-05-22 03:40:27.658070 PDT] Iters: 0, Epoch: 8, Batch: 1301/1359, LR: 0.0002, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.2207, TrainVAE_REC: 100.8191, TrainVAE_KL: 1.4016, TrainVAE_PPL: 99.86, TrainSVI_NLL: 102.21, TrainSVI_REC: 100.73, TrainSVI_KL: 1.4728, TrainSVI_PPL: 99.80, KLInitFinal: 0.00, |Param|: 391.5289, BestValPerf: 121.01, BestEpoch: 7, Beta: 1.0000, Throughput: 86.78 examples/sec
+[2020-05-22 03:40:45.796295 PDT] Time Elapsed: 482.2s
+[2020-05-22 03:40:45.796560 PDT] --------------------------------
+[2020-05-22 03:40:45.796678 PDT] Checking validation perf...
+---------------------------------
+| Epoch            | 8          |
+| Mode             | Val        |
+| LR               | 0.00020611 |
+| Epoch Train Time | 482.19     |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 104.88     |
+| VAE REC          | 103.54     |
+| VAE KL           | 1.3399     |
+| VAE PPL          | 120.52     |
+| SVI NLL          | 104.75     |
+| SVI REC          | 103.29     |
+| SVI KL           | 1.4517     |
+| SVI PPL          | 119.78     |
+---------------------------------
+[2020-05-22 03:41:07.323968 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 104.8803, VAE REC: 103.5404, VAE KL: 1.3399, VAE PPL: 120.5237, SVI NLL: 104.7457, SVI REC: 103.2940, SVI KL: 1.4517, SVI PPL: 119.7848
+[2020-05-22 03:41:07.324525 PDT] --------------------------------
+[2020-05-22 03:41:07.324698 PDT] Checking test perf...
+---------------------------------
+| Epoch            | 8          |
+| Mode             | Test       |
+| LR               | 0.00020611 |
+| Epoch Train Time | 482.19     |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 103.87     |
+| VAE REC          | 102.56     |
+| VAE KL           | 1.3099     |
+| VAE PPL          | 114.34     |
+| SVI NLL          | 103.77     |
+| SVI REC          | 102.38     |
+| SVI KL           | 1.3863     |
+| SVI PPL          | 113.81     |
+---------------------------------
+[2020-05-22 03:41:30.367772 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 103.8694, VAE REC: 102.5595, VAE KL: 1.3099, VAE PPL: 114.3433, SVI NLL: 103.7678, SVI REC: 102.3815, SVI KL: 1.3863, SVI PPL: 113.8149
+[2020-05-22 03:41:30.390832 PDT] Save checkpoint to models/ptb/savae_cyc.pt
+[2020-05-22 03:41:30.510633 PDT] Starting epoch 9
+[2020-05-22 03:42:05.820646 PDT] Iters: 0, Epoch: 9, Batch: 101/1359, LR: 0.0001, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 100.9486, TrainVAE_REC: 99.5581, TrainVAE_KL: 1.3905, TrainVAE_PPL: 94.80, TrainSVI_NLL: 100.91, TrainSVI_REC: 99.44, TrainSVI_KL: 1.4685, TrainSVI_PPL: 94.62, KLInitFinal: 0.00, |Param|: 391.9390, BestValPerf: 119.78, BestEpoch: 8, Beta: 1.0000, Throughput: 87.11 examples/sec
+[2020-05-22 03:42:42.446302 PDT] Iters: 0, Epoch: 9, Batch: 201/1359, LR: 0.0001, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.0642, TrainVAE_REC: 102.6753, TrainVAE_KL: 1.3889, TrainVAE_PPL: 96.79, TrainSVI_NLL: 104.04, TrainSVI_REC: 102.58, TrainSVI_KL: 1.4599, TrainSVI_PPL: 96.67, KLInitFinal: 0.00, |Param|: 392.1290, BestValPerf: 119.78, BestEpoch: 8, Beta: 1.0000, Throughput: 85.85 examples/sec
+[2020-05-22 03:43:17.168929 PDT] Iters: 0, Epoch: 9, Batch: 301/1359, LR: 0.0001, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 103.7029, TrainVAE_REC: 102.3365, TrainVAE_KL: 1.3663, TrainVAE_PPL: 96.83, TrainSVI_NLL: 103.71, TrainSVI_REC: 102.27, TrainSVI_KL: 1.4426, TrainSVI_PPL: 96.88, KLInitFinal: 0.00, |Param|: 392.3134, BestValPerf: 119.78, BestEpoch: 8, Beta: 1.0000, Throughput: 86.61 examples/sec
+[2020-05-22 03:43:51.618724 PDT] Iters: 0, Epoch: 9, Batch: 401/1359, LR: 0.0001, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.4859, TrainVAE_REC: 101.1205, TrainVAE_KL: 1.3654, TrainVAE_PPL: 96.46, TrainSVI_NLL: 102.47, TrainSVI_REC: 101.03, TrainSVI_KL: 1.4454, TrainSVI_PPL: 96.40, KLInitFinal: 0.00, |Param|: 392.4884, BestValPerf: 119.78, BestEpoch: 8, Beta: 1.0000, Throughput: 86.71 examples/sec
+[2020-05-22 03:44:28.410070 PDT] Iters: 0, Epoch: 9, Batch: 501/1359, LR: 0.0001, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 103.4110, TrainVAE_REC: 102.0477, TrainVAE_KL: 1.3632, TrainVAE_PPL: 97.89, TrainSVI_NLL: 103.41, TrainSVI_REC: 101.96, TrainSVI_KL: 1.4445, TrainSVI_PPL: 97.87, KLInitFinal: 0.00, |Param|: 392.6740, BestValPerf: 119.78, BestEpoch: 8, Beta: 1.0000, Throughput: 86.28 examples/sec
+[2020-05-22 03:45:03.721072 PDT] Iters: 0, Epoch: 9, Batch: 601/1359, LR: 0.0001, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.5630, TrainVAE_REC: 101.1997, TrainVAE_KL: 1.3632, TrainVAE_PPL: 97.68, TrainSVI_NLL: 102.54, TrainSVI_REC: 101.10, TrainSVI_KL: 1.4426, TrainSVI_PPL: 97.58, KLInitFinal: 0.00, |Param|: 392.8508, BestValPerf: 119.78, BestEpoch: 8, Beta: 1.0000, Throughput: 86.55 examples/sec
+[2020-05-22 03:45:35.883490 PDT] Iters: 0, Epoch: 9, Batch: 701/1359, LR: 0.0001, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.1864, TrainVAE_REC: 99.8290, TrainVAE_KL: 1.3573, TrainVAE_PPL: 97.35, TrainSVI_NLL: 101.18, TrainSVI_REC: 99.74, TrainSVI_KL: 1.4355, TrainSVI_PPL: 97.33, KLInitFinal: 0.00, |Param|: 393.0366, BestValPerf: 119.78, BestEpoch: 8, Beta: 1.0000, Throughput: 87.61 examples/sec
+[2020-05-22 03:46:16.590863 PDT] Iters: 0, Epoch: 9, Batch: 801/1359, LR: 0.0001, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.6998, TrainVAE_REC: 101.3287, TrainVAE_KL: 1.3710, TrainVAE_PPL: 97.55, TrainSVI_NLL: 102.69, TrainSVI_REC: 101.24, TrainSVI_KL: 1.4471, TrainSVI_PPL: 97.51, KLInitFinal: 0.00, |Param|: 393.2208, BestValPerf: 119.78, BestEpoch: 8, Beta: 1.0000, Throughput: 86.07 examples/sec
+[2020-05-22 03:46:53.669422 PDT] Iters: 0, Epoch: 9, Batch: 901/1359, LR: 0.0001, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.3345, TrainVAE_REC: 100.9681, TrainVAE_KL: 1.3664, TrainVAE_PPL: 97.26, TrainSVI_NLL: 102.33, TrainSVI_REC: 100.89, TrainSVI_KL: 1.4421, TrainSVI_PPL: 97.23, KLInitFinal: 0.00, |Param|: 393.3922, BestValPerf: 119.78, BestEpoch: 8, Beta: 1.0000, Throughput: 85.86 examples/sec
+[2020-05-22 03:47:29.665609 PDT] Iters: 0, Epoch: 9, Batch: 1001/1359, LR: 0.0001, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.5607, TrainVAE_REC: 100.1972, TrainVAE_KL: 1.3634, TrainVAE_PPL: 96.90, TrainSVI_NLL: 101.55, TrainSVI_REC: 100.11, TrainSVI_KL: 1.4379, TrainSVI_PPL: 96.86, KLInitFinal: 0.00, |Param|: 393.5610, BestValPerf: 119.78, BestEpoch: 8, Beta: 1.0000, Throughput: 85.94 examples/sec
+[2020-05-22 03:48:07.072245 PDT] Iters: 0, Epoch: 9, Batch: 1101/1359, LR: 0.0001, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.4434, TrainVAE_REC: 100.0768, TrainVAE_KL: 1.3666, TrainVAE_PPL: 97.00, TrainSVI_NLL: 101.44, TrainSVI_REC: 100.00, TrainSVI_KL: 1.4399, TrainSVI_PPL: 96.99, KLInitFinal: 0.00, |Param|: 393.7359, BestValPerf: 119.78, BestEpoch: 8, Beta: 1.0000, Throughput: 85.63 examples/sec
+[2020-05-22 03:48:45.975651 PDT] Iters: 0, Epoch: 9, Batch: 1201/1359, LR: 0.0001, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.8437, TrainVAE_REC: 100.4768, TrainVAE_KL: 1.3669, TrainVAE_PPL: 97.18, TrainSVI_NLL: 101.84, TrainSVI_REC: 100.39, TrainSVI_KL: 1.4406, TrainSVI_PPL: 97.14, KLInitFinal: 0.00, |Param|: 393.9092, BestValPerf: 119.78, BestEpoch: 8, Beta: 1.0000, Throughput: 85.13 examples/sec
+[2020-05-22 03:49:20.217798 PDT] Iters: 0, Epoch: 9, Batch: 1301/1359, LR: 0.0001, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.2411, TrainVAE_REC: 99.8789, TrainVAE_KL: 1.3622, TrainVAE_PPL: 97.00, TrainSVI_NLL: 101.25, TrainSVI_REC: 99.82, TrainSVI_KL: 1.4354, TrainSVI_PPL: 97.05, KLInitFinal: 0.00, |Param|: 394.0844, BestValPerf: 119.78, BestEpoch: 8, Beta: 1.0000, Throughput: 85.67 examples/sec
+[2020-05-22 03:49:40.835455 PDT] Time Elapsed: 490.3s
+[2020-05-22 03:49:40.835952 PDT] --------------------------------
+[2020-05-22 03:49:40.836096 PDT] Checking validation perf...
+---------------------------------
+| Epoch            | 9          |
+| Mode             | Val        |
+| LR               | 9.5492e-05 |
+| Epoch Train Time | 490.32     |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 104.74     |
+| VAE REC          | 103.43     |
+| VAE KL           | 1.3126     |
+| VAE PPL          | 119.77     |
+| SVI NLL          | 104.69     |
+| SVI REC          | 103.28     |
+| SVI KL           | 1.412      |
+| SVI PPL          | 119.5      |
+---------------------------------
+[2020-05-22 03:50:02.459699 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 104.7428, VAE REC: 103.4301, VAE KL: 1.3126, VAE PPL: 119.7687, SVI NLL: 104.6945, SVI REC: 103.2825, SVI KL: 1.4120, SVI PPL: 119.5048
+[2020-05-22 03:50:02.460107 PDT] --------------------------------
+[2020-05-22 03:50:02.460218 PDT] Checking test perf...
+---------------------------------
+| Epoch            | 9          |
+| Mode             | Test       |
+| LR               | 9.5492e-05 |
+| Epoch Train Time | 490.32     |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 103.74     |
+| VAE REC          | 102.48     |
+| VAE KL           | 1.2645     |
+| VAE PPL          | 113.7      |
+| SVI NLL          | 103.69     |
+| SVI REC          | 102.34     |
+| SVI KL           | 1.3443     |
+| SVI PPL          | 113.39     |
+---------------------------------
+[2020-05-22 03:50:26.342796 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 103.7449, VAE REC: 102.4804, VAE KL: 1.2645, VAE PPL: 113.6959, SVI NLL: 103.6852, SVI REC: 102.3409, SVI KL: 1.3443, SVI PPL: 113.3863
+[2020-05-22 03:50:26.363500 PDT] Save checkpoint to models/ptb/savae_cyc.pt
+[2020-05-22 03:50:26.486338 PDT] Starting epoch 10
+[2020-05-22 03:51:04.317648 PDT] Iters: 0, Epoch: 10, Batch: 101/1359, LR: 0.0000, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 105.9641, TrainVAE_REC: 104.5653, TrainVAE_KL: 1.3989, TrainVAE_PPL: 95.15, TrainSVI_NLL: 105.98, TrainSVI_REC: 104.51, TrainSVI_KL: 1.4715, TrainSVI_PPL: 95.23, KLInitFinal: 0.00, |Param|: 394.2337, BestValPerf: 119.50, BestEpoch: 9, Beta: 1.0000, Throughput: 83.42 examples/sec
+[2020-05-22 03:51:38.326922 PDT] Iters: 0, Epoch: 10, Batch: 201/1359, LR: 0.0000, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.6512, TrainVAE_REC: 100.2969, TrainVAE_KL: 1.3543, TrainVAE_PPL: 96.07, TrainSVI_NLL: 101.68, TrainSVI_REC: 100.24, TrainSVI_KL: 1.4340, TrainSVI_PPL: 96.18, KLInitFinal: 0.00, |Param|: 394.2767, BestValPerf: 119.50, BestEpoch: 9, Beta: 1.0000, Throughput: 86.89 examples/sec
+[2020-05-22 03:52:13.199968 PDT] Iters: 0, Epoch: 10, Batch: 301/1359, LR: 0.0000, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 100.9920, TrainVAE_REC: 99.6403, TrainVAE_KL: 1.3517, TrainVAE_PPL: 95.51, TrainSVI_NLL: 101.03, TrainSVI_REC: 99.60, TrainSVI_KL: 1.4294, TrainSVI_PPL: 95.68, KLInitFinal: 0.00, |Param|: 394.3229, BestValPerf: 119.50, BestEpoch: 9, Beta: 1.0000, Throughput: 87.06 examples/sec
+[2020-05-22 03:52:49.699735 PDT] Iters: 0, Epoch: 10, Batch: 401/1359, LR: 0.0000, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.2835, TrainVAE_REC: 99.9238, TrainVAE_KL: 1.3597, TrainVAE_PPL: 94.75, TrainSVI_NLL: 101.33, TrainSVI_REC: 99.89, TrainSVI_KL: 1.4347, TrainSVI_PPL: 94.93, KLInitFinal: 0.00, |Param|: 394.3693, BestValPerf: 119.50, BestEpoch: 9, Beta: 1.0000, Throughput: 86.66 examples/sec
+[2020-05-22 03:53:28.582937 PDT] Iters: 0, Epoch: 10, Batch: 501/1359, LR: 0.0000, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.9684, TrainVAE_REC: 101.5983, TrainVAE_KL: 1.3701, TrainVAE_PPL: 95.12, TrainSVI_NLL: 102.98, TrainSVI_REC: 101.54, TrainSVI_KL: 1.4431, TrainSVI_PPL: 95.17, KLInitFinal: 0.00, |Param|: 394.4152, BestValPerf: 119.50, BestEpoch: 9, Beta: 1.0000, Throughput: 85.04 examples/sec
+[2020-05-22 03:54:05.093254 PDT] Iters: 0, Epoch: 10, Batch: 601/1359, LR: 0.0000, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.7127, TrainVAE_REC: 101.3435, TrainVAE_KL: 1.3693, TrainVAE_PPL: 95.36, TrainSVI_NLL: 102.73, TrainSVI_REC: 101.29, TrainSVI_KL: 1.4424, TrainSVI_PPL: 95.43, KLInitFinal: 0.00, |Param|: 394.4613, BestValPerf: 119.50, BestEpoch: 9, Beta: 1.0000, Throughput: 84.80 examples/sec
+[2020-05-22 03:54:37.937178 PDT] Iters: 0, Epoch: 10, Batch: 701/1359, LR: 0.0000, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.6412, TrainVAE_REC: 100.2800, TrainVAE_KL: 1.3612, TrainVAE_PPL: 95.45, TrainSVI_NLL: 101.65, TrainSVI_REC: 100.22, TrainSVI_KL: 1.4324, TrainSVI_PPL: 95.50, KLInitFinal: 0.00, |Param|: 394.5045, BestValPerf: 119.50, BestEpoch: 9, Beta: 1.0000, Throughput: 86.12 examples/sec
+[2020-05-22 03:55:14.808729 PDT] Iters: 0, Epoch: 10, Batch: 801/1359, LR: 0.0000, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.9405, TrainVAE_REC: 100.5776, TrainVAE_KL: 1.3629, TrainVAE_PPL: 95.19, TrainSVI_NLL: 101.95, TrainSVI_REC: 100.52, TrainSVI_KL: 1.4329, TrainSVI_PPL: 95.23, KLInitFinal: 0.00, |Param|: 394.5505, BestValPerf: 119.50, BestEpoch: 9, Beta: 1.0000, Throughput: 85.83 examples/sec
+[2020-05-22 03:55:51.128734 PDT] Iters: 0, Epoch: 10, Batch: 901/1359, LR: 0.0000, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.2252, TrainVAE_REC: 100.8630, TrainVAE_KL: 1.3622, TrainVAE_PPL: 95.67, TrainSVI_NLL: 102.24, TrainSVI_REC: 100.80, TrainSVI_KL: 1.4345, TrainSVI_PPL: 95.73, KLInitFinal: 0.00, |Param|: 394.5947, BestValPerf: 119.50, BestEpoch: 9, Beta: 1.0000, Throughput: 85.49 examples/sec
+[2020-05-22 03:56:24.317190 PDT] Iters: 0, Epoch: 10, Batch: 1001/1359, LR: 0.0000, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.5568, TrainVAE_REC: 100.1976, TrainVAE_KL: 1.3592, TrainVAE_PPL: 95.49, TrainSVI_NLL: 101.56, TrainSVI_REC: 100.13, TrainSVI_KL: 1.4313, TrainSVI_PPL: 95.49, KLInitFinal: 0.00, |Param|: 394.6397, BestValPerf: 119.50, BestEpoch: 9, Beta: 1.0000, Throughput: 86.18 examples/sec
+[2020-05-22 03:57:00.136591 PDT] Iters: 0, Epoch: 10, Batch: 1101/1359, LR: 0.0000, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.4569, TrainVAE_REC: 100.0944, TrainVAE_KL: 1.3625, TrainVAE_PPL: 95.30, TrainSVI_NLL: 101.47, TrainSVI_REC: 100.03, TrainSVI_KL: 1.4340, TrainSVI_PPL: 95.34, KLInitFinal: 0.00, |Param|: 394.6836, BestValPerf: 119.50, BestEpoch: 9, Beta: 1.0000, Throughput: 86.30 examples/sec
+[2020-05-22 03:57:36.227959 PDT] Iters: 0, Epoch: 10, Batch: 1201/1359, LR: 0.0000, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.3213, TrainVAE_REC: 99.9563, TrainVAE_KL: 1.3650, TrainVAE_PPL: 95.17, TrainSVI_NLL: 101.33, TrainSVI_REC: 99.89, TrainSVI_KL: 1.4364, TrainSVI_PPL: 95.20, KLInitFinal: 0.00, |Param|: 394.7271, BestValPerf: 119.50, BestEpoch: 9, Beta: 1.0000, Throughput: 86.40 examples/sec
+[2020-05-22 03:58:11.935325 PDT] Iters: 0, Epoch: 10, Batch: 1301/1359, LR: 0.0000, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.1560, TrainVAE_REC: 99.7962, TrainVAE_KL: 1.3599, TrainVAE_PPL: 95.33, TrainSVI_NLL: 101.17, TrainSVI_REC: 99.74, TrainSVI_KL: 1.4315, TrainSVI_PPL: 95.40, KLInitFinal: 0.00, |Param|: 394.7708, BestValPerf: 119.50, BestEpoch: 9, Beta: 1.0000, Throughput: 86.44 examples/sec
+[2020-05-22 03:58:30.383744 PDT] Time Elapsed: 483.9s
+[2020-05-22 03:58:30.384067 PDT] --------------------------------
+[2020-05-22 03:58:30.384200 PDT] Checking validation perf...
+---------------------------------
+| Epoch            | 10         |
+| Mode             | Val        |
+| LR               | 2.4472e-05 |
+| Epoch Train Time | 483.9      |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 104.77     |
+| VAE REC          | 103.43     |
+| VAE KL           | 1.3358     |
+| VAE PPL          | 119.91     |
+| SVI NLL          | 104.65     |
+| SVI REC          | 103.23     |
+| SVI KL           | 1.4201     |
+| SVI PPL          | 119.29     |
+---------------------------------
+[2020-05-22 03:58:51.600563 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 104.7686, VAE REC: 103.4327, VAE KL: 1.3358, VAE PPL: 119.9100, SVI NLL: 104.6548, SVI REC: 103.2348, SVI KL: 1.4201, SVI PPL: 119.2885
+[2020-05-22 03:58:51.601060 PDT] --------------------------------
+[2020-05-22 03:58:51.601218 PDT] Checking test perf...
+---------------------------------
+| Epoch            | 10         |
+| Mode             | Test       |
+| LR               | 2.4472e-05 |
+| Epoch Train Time | 483.9      |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 103.73     |
+| VAE REC          | 102.45     |
+| VAE KL           | 1.2844     |
+| VAE PPL          | 113.63     |
+| SVI NLL          | 103.7      |
+| SVI REC          | 102.33     |
+| SVI KL           | 1.3736     |
+| SVI PPL          | 113.47     |
+---------------------------------
+[2020-05-22 03:59:14.193745 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 103.7320, VAE REC: 102.4476, VAE KL: 1.2844, VAE PPL: 113.6288, SVI NLL: 103.7016, SVI REC: 102.3280, SVI KL: 1.3736, SVI PPL: 113.4711
+[2020-05-22 03:59:14.215238 PDT] Save checkpoint to models/ptb/savae_cyc.pt
+[2020-05-22 03:59:14.332778 PDT] Starting epoch 11
+[2020-05-22 03:59:14.333069 PDT] KL annealing restart
+[2020-05-22 03:59:52.998227 PDT] Iters: 0, Epoch: 11, Batch: 101/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 109.0957, TrainVAE_REC: 104.2995, TrainVAE_KL: 4.7962, TrainVAE_PPL: 107.89, TrainSVI_NLL: 109.03, TrainSVI_REC: 104.04, TrainSVI_KL: 4.9923, TrainSVI_PPL: 107.61, KLInitFinal: 0.00, |Param|: 397.4642, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.1147, Throughput: 81.49 examples/sec
+[2020-05-22 04:00:28.080564 PDT] Iters: 0, Epoch: 11, Batch: 201/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 106.6907, TrainVAE_REC: 101.4506, TrainVAE_KL: 5.2401, TrainVAE_PPL: 113.71, TrainSVI_NLL: 106.61, TrainSVI_REC: 101.19, TrainSVI_KL: 5.4210, TrainSVI_PPL: 113.31, KLInitFinal: 0.00, |Param|: 399.7948, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.1294, Throughput: 84.03 examples/sec
+[2020-05-22 04:01:05.675164 PDT] Iters: 0, Epoch: 11, Batch: 301/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 107.9020, TrainVAE_REC: 102.4433, TrainVAE_KL: 5.4587, TrainVAE_PPL: 115.70, TrainSVI_NLL: 107.76, TrainSVI_REC: 102.14, TrainSVI_KL: 5.6218, TrainSVI_PPL: 114.98, KLInitFinal: 0.00, |Param|: 402.2163, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.1442, Throughput: 83.23 examples/sec
+[2020-05-22 04:01:40.132063 PDT] Iters: 0, Epoch: 11, Batch: 401/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 106.3183, TrainVAE_REC: 100.7520, TrainVAE_KL: 5.5663, TrainVAE_PPL: 116.44, TrainSVI_NLL: 106.13, TrainSVI_REC: 100.41, TrainSVI_KL: 5.7226, TrainSVI_PPL: 115.48, KLInitFinal: 0.00, |Param|: 404.4794, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.1589, Throughput: 84.73 examples/sec
+[2020-05-22 04:02:15.067421 PDT] Iters: 0, Epoch: 11, Batch: 501/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 105.6189, TrainVAE_REC: 100.0015, TrainVAE_KL: 5.6174, TrainVAE_PPL: 115.56, TrainSVI_NLL: 105.41, TrainSVI_REC: 99.63, TrainSVI_KL: 5.7719, TrainSVI_PPL: 114.46, KLInitFinal: 0.00, |Param|: 406.7104, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.1736, Throughput: 85.45 examples/sec
+[2020-05-22 04:02:52.017014 PDT] Iters: 0, Epoch: 11, Batch: 601/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 106.1849, TrainVAE_REC: 100.5093, TrainVAE_KL: 5.6756, TrainVAE_PPL: 115.59, TrainSVI_NLL: 105.96, TrainSVI_REC: 100.13, TrainSVI_KL: 5.8310, TrainSVI_PPL: 114.42, KLInitFinal: 0.00, |Param|: 408.7749, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.1883, Throughput: 85.11 examples/sec
+[2020-05-22 04:03:25.409158 PDT] Iters: 0, Epoch: 11, Batch: 701/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.9231, TrainVAE_REC: 99.2291, TrainVAE_KL: 5.6940, TrainVAE_PPL: 115.51, TrainSVI_NLL: 104.70, TrainSVI_REC: 98.86, TrainSVI_KL: 5.8452, TrainSVI_PPL: 114.36, KLInitFinal: 0.00, |Param|: 410.9584, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.2030, Throughput: 86.31 examples/sec
+[2020-05-22 04:04:01.507062 PDT] Iters: 0, Epoch: 11, Batch: 801/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.5447, TrainVAE_REC: 98.8147, TrainVAE_KL: 5.7300, TrainVAE_PPL: 115.62, TrainSVI_NLL: 104.32, TrainSVI_REC: 98.44, TrainSVI_KL: 5.8786, TrainSVI_PPL: 114.43, KLInitFinal: 0.00, |Param|: 413.0460, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.2177, Throughput: 86.12 examples/sec
+[2020-05-22 04:04:37.074250 PDT] Iters: 0, Epoch: 11, Batch: 901/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.3243, TrainVAE_REC: 98.5890, TrainVAE_KL: 5.7353, TrainVAE_PPL: 116.05, TrainSVI_NLL: 104.08, TrainSVI_REC: 98.18, TrainSVI_KL: 5.8922, TrainSVI_PPL: 114.75, KLInitFinal: 0.00, |Param|: 414.9732, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.2325, Throughput: 86.13 examples/sec
+[2020-05-22 04:05:11.655532 PDT] Iters: 0, Epoch: 11, Batch: 1001/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.4873, TrainVAE_REC: 98.7820, TrainVAE_KL: 5.7053, TrainVAE_PPL: 115.90, TrainSVI_NLL: 104.24, TrainSVI_REC: 98.38, TrainSVI_KL: 5.8607, TrainSVI_PPL: 114.60, KLInitFinal: 0.00, |Param|: 417.1106, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.2472, Throughput: 86.29 examples/sec
+[2020-05-22 04:05:50.106331 PDT] Iters: 0, Epoch: 11, Batch: 1101/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 105.2322, TrainVAE_REC: 99.5402, TrainVAE_KL: 5.6920, TrainVAE_PPL: 116.15, TrainSVI_NLL: 104.97, TrainSVI_REC: 99.12, TrainSVI_KL: 5.8507, TrainSVI_PPL: 114.77, KLInitFinal: 0.00, |Param|: 418.9861, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.2619, Throughput: 85.80 examples/sec
+[2020-05-22 04:06:25.163994 PDT] Iters: 0, Epoch: 11, Batch: 1201/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 105.1269, TrainVAE_REC: 99.4329, TrainVAE_KL: 5.6940, TrainVAE_PPL: 116.55, TrainSVI_NLL: 104.86, TrainSVI_REC: 99.01, TrainSVI_KL: 5.8492, TrainSVI_PPL: 115.16, KLInitFinal: 0.00, |Param|: 421.0461, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.2766, Throughput: 86.07 examples/sec
+[2020-05-22 04:06:58.223299 PDT] Iters: 0, Epoch: 11, Batch: 1301/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.8962, TrainVAE_REC: 99.2370, TrainVAE_KL: 5.6593, TrainVAE_PPL: 116.48, TrainSVI_NLL: 104.61, TrainSVI_REC: 98.80, TrainSVI_KL: 5.8157, TrainSVI_PPL: 114.99, KLInitFinal: 0.00, |Param|: 423.0165, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.2913, Throughput: 86.72 examples/sec
+[2020-05-22 04:07:20.147389 PDT] Time Elapsed: 485.8s
+[2020-05-22 04:07:20.147620 PDT] --------------------------------
+[2020-05-22 04:07:20.147728 PDT] Checking validation perf...
+-------------------------------
+| Epoch            | 11       |
+| Mode             | Val      |
+| LR               | 0.001    |
+| Epoch Train Time | 485.81   |
+| AR NLL           | 0        |
+| AR PPL           | 1        |
+| VAE NLL          | 106.3    |
+| VAE REC          | 101.25   |
+| VAE KL           | 5.0509   |
+| VAE PPL          | 128.62   |
+| SVI NLL          | 106.13   |
+| SVI REC          | 100.56   |
+| SVI KL           | 5.568    |
+| SVI PPL          | 127.58   |
+-------------------------------
+[2020-05-22 04:07:40.702465 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 106.3038, VAE REC: 101.2529, VAE KL: 5.0509, VAE PPL: 128.6230, SVI NLL: 106.1253, SVI REC: 100.5573, SVI KL: 5.5680, SVI PPL: 127.5780
+[2020-05-22 04:07:40.702874 PDT] --------------------------------
+[2020-05-22 04:07:40.702986 PDT] Checking test perf...
+-------------------------------
+| Epoch            | 11       |
+| Mode             | Test     |
+| LR               | 0.001    |
+| Epoch Train Time | 485.81   |
+| AR NLL           | 0        |
+| AR PPL           | 1        |
+| VAE NLL          | 105.28   |
+| VAE REC          | 100.22   |
+| VAE KL           | 5.0621   |
+| VAE PPL          | 121.94   |
+| SVI NLL          | 105.16   |
+| SVI REC          | 99.64    |
+| SVI KL           | 5.5183   |
+| SVI PPL          | 121.27   |
+-------------------------------
+[2020-05-22 04:08:03.698448 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 105.2789, VAE REC: 100.2167, VAE KL: 5.0621, VAE PPL: 121.9383, SVI NLL: 105.1582, SVI REC: 99.6399, SVI KL: 5.5183, SVI PPL: 121.2689
+[2020-05-22 04:08:03.699026 PDT] Starting epoch 12
+[2020-05-22 04:08:39.370790 PDT] Iters: 0, Epoch: 12, Batch: 101/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.0261, TrainVAE_REC: 98.8497, TrainVAE_KL: 5.1764, TrainVAE_PPL: 100.88, TrainSVI_NLL: 104.04, TrainSVI_REC: 98.74, TrainSVI_KL: 5.3038, TrainSVI_PPL: 100.96, KLInitFinal: 0.00, |Param|: 426.5602, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.3147, Throughput: 87.80 examples/sec
+[2020-05-22 04:09:11.032523 PDT] Iters: 0, Epoch: 12, Batch: 201/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.0612, TrainVAE_REC: 92.8958, TrainVAE_KL: 5.1654, TrainVAE_PPL: 99.87, TrainSVI_NLL: 97.91, TrainSVI_REC: 92.60, TrainSVI_KL: 5.3050, TrainSVI_PPL: 99.15, KLInitFinal: 0.00, |Param|: 428.7834, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.3294, Throughput: 93.58 examples/sec
+[2020-05-22 04:09:45.135495 PDT] Iters: 0, Epoch: 12, Batch: 301/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.8144, TrainVAE_REC: 93.5966, TrainVAE_KL: 5.2178, TrainVAE_PPL: 100.54, TrainSVI_NLL: 98.66, TrainSVI_REC: 93.31, TrainSVI_KL: 5.3516, TrainSVI_PPL: 99.81, KLInitFinal: 0.00, |Param|: 430.9074, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.3442, Throughput: 92.78 examples/sec
+[2020-05-22 04:10:18.396044 PDT] Iters: 0, Epoch: 12, Batch: 401/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.8035, TrainVAE_REC: 93.5829, TrainVAE_KL: 5.2206, TrainVAE_PPL: 103.05, TrainSVI_NLL: 98.89, TrainSVI_REC: 93.29, TrainSVI_KL: 5.6021, TrainSVI_PPL: 103.49, KLInitFinal: 0.00, |Param|: 432.9363, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.3589, Throughput: 92.33 examples/sec
+[2020-05-22 04:10:53.536556 PDT] Iters: 0, Epoch: 12, Batch: 501/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 99.7717, TrainVAE_REC: 94.6044, TrainVAE_KL: 5.1673, TrainVAE_PPL: 102.97, TrainSVI_NLL: 99.83, TrainSVI_REC: 94.33, TrainSVI_KL: 5.4972, TrainSVI_PPL: 103.24, KLInitFinal: 0.00, |Param|: 435.1379, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.3736, Throughput: 91.36 examples/sec
+[2020-05-22 04:11:27.534227 PDT] Iters: 0, Epoch: 12, Batch: 601/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 100.0165, TrainVAE_REC: 94.9040, TrainVAE_KL: 5.1126, TrainVAE_PPL: 103.85, TrainSVI_NLL: 100.03, TrainSVI_REC: 94.62, TrainSVI_KL: 5.4094, TrainSVI_PPL: 103.94, KLInitFinal: 0.00, |Param|: 437.3170, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.3883, Throughput: 91.74 examples/sec
+[2020-05-22 04:12:03.533027 PDT] Iters: 0, Epoch: 12, Batch: 701/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 100.5871, TrainVAE_REC: 95.5205, TrainVAE_KL: 5.0666, TrainVAE_PPL: 104.38, TrainSVI_NLL: 100.59, TrainSVI_REC: 95.25, TrainSVI_KL: 5.3373, TrainSVI_PPL: 104.39, KLInitFinal: 0.00, |Param|: 439.4439, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.4030, Throughput: 90.73 examples/sec
+[2020-05-22 04:12:41.734823 PDT] Iters: 0, Epoch: 12, Batch: 801/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.5619, TrainVAE_REC: 96.5170, TrainVAE_KL: 5.0449, TrainVAE_PPL: 105.63, TrainSVI_NLL: 101.54, TrainSVI_REC: 96.25, TrainSVI_KL: 5.2954, TrainSVI_PPL: 105.54, KLInitFinal: 0.00, |Param|: 441.5978, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.4177, Throughput: 89.63 examples/sec
+[2020-05-22 04:13:17.404416 PDT] Iters: 0, Epoch: 12, Batch: 901/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.8219, TrainVAE_REC: 96.8240, TrainVAE_KL: 4.9979, TrainVAE_PPL: 105.35, TrainSVI_NLL: 101.79, TrainSVI_REC: 96.56, TrainSVI_KL: 5.2389, TrainSVI_PPL: 105.22, KLInitFinal: 0.00, |Param|: 443.7211, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.4325, Throughput: 89.11 examples/sec
+[2020-05-22 04:13:53.130088 PDT] Iters: 0, Epoch: 12, Batch: 1001/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.1069, TrainVAE_REC: 97.1409, TrainVAE_KL: 4.9660, TrainVAE_PPL: 105.76, TrainSVI_NLL: 102.07, TrainSVI_REC: 96.87, TrainSVI_KL: 5.1976, TrainSVI_PPL: 105.57, KLInitFinal: 0.00, |Param|: 445.6840, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.4472, Throughput: 88.84 examples/sec
+[2020-05-22 04:14:29.640273 PDT] Iters: 0, Epoch: 12, Batch: 1101/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.4044, TrainVAE_REC: 97.4879, TrainVAE_KL: 4.9165, TrainVAE_PPL: 106.07, TrainSVI_NLL: 102.35, TrainSVI_REC: 97.21, TrainSVI_KL: 5.1409, TrainSVI_PPL: 105.80, KLInitFinal: 0.00, |Param|: 447.7968, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.4619, Throughput: 88.37 examples/sec
+[2020-05-22 04:15:05.707070 PDT] Iters: 0, Epoch: 12, Batch: 1201/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.5176, TrainVAE_REC: 97.6581, TrainVAE_KL: 4.8596, TrainVAE_PPL: 106.09, TrainSVI_NLL: 102.46, TrainSVI_REC: 97.38, TrainSVI_KL: 5.0768, TrainSVI_PPL: 105.79, KLInitFinal: 0.00, |Param|: 449.8863, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.4766, Throughput: 88.12 examples/sec
+[2020-05-22 04:15:40.289602 PDT] Iters: 0, Epoch: 12, Batch: 1301/1359, LR: 0.0010, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.5231, TrainVAE_REC: 97.7087, TrainVAE_KL: 4.8144, TrainVAE_PPL: 106.27, TrainSVI_NLL: 102.45, TrainSVI_REC: 97.43, TrainSVI_KL: 5.0225, TrainSVI_PPL: 105.91, KLInitFinal: 0.00, |Param|: 451.9272, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.4913, Throughput: 88.25 examples/sec
+[2020-05-22 04:16:04.589633 PDT] Time Elapsed: 480.9s
+[2020-05-22 04:16:04.589908 PDT] --------------------------------
+[2020-05-22 04:16:04.590008 PDT] Checking validation perf...
+---------------------------------
+| Epoch            | 12         |
+| Mode             | Val        |
+| LR               | 0.00097553 |
+| Epoch Train Time | 480.89     |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 105.25     |
+| VAE REC          | 101.19     |
+| VAE KL           | 4.06       |
+| VAE PPL          | 122.6      |
+| SVI NLL          | 105.04     |
+| SVI REC          | 100.69     |
+| SVI KL           | 4.3522     |
+| SVI PPL          | 121.41     |
+---------------------------------
+[2020-05-22 04:16:25.682866 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 105.2545, VAE REC: 101.1945, VAE KL: 4.0600, VAE PPL: 122.6022, SVI NLL: 105.0413, SVI REC: 100.6891, SVI KL: 4.3522, SVI PPL: 121.4136
+[2020-05-22 04:16:25.683315 PDT] --------------------------------
+[2020-05-22 04:16:25.683486 PDT] Checking test perf...
+---------------------------------
+| Epoch            | 12         |
+| Mode             | Test       |
+| LR               | 0.00097553 |
+| Epoch Train Time | 480.89     |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 104.14     |
+| VAE REC          | 100.13     |
+| VAE KL           | 4.0113     |
+| VAE PPL          | 115.77     |
+| SVI NLL          | 103.97     |
+| SVI REC          | 99.704     |
+| SVI KL           | 4.2618     |
+| SVI PPL          | 114.85     |
+---------------------------------
+[2020-05-22 04:16:48.697640 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 104.1408, VAE REC: 100.1295, VAE KL: 4.0113, VAE PPL: 115.7680, SVI NLL: 103.9656, SVI REC: 99.7038, SVI KL: 4.2618, SVI PPL: 114.8466
+[2020-05-22 04:16:48.698141 PDT] Starting epoch 13
+[2020-05-22 04:17:26.595438 PDT] Iters: 0, Epoch: 13, Batch: 101/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 104.9101, TrainVAE_REC: 100.6545, TrainVAE_KL: 4.2556, TrainVAE_PPL: 93.55, TrainSVI_NLL: 104.84, TrainSVI_REC: 100.47, TrainSVI_KL: 4.3775, TrainSVI_PPL: 93.28, KLInitFinal: 0.00, |Param|: 455.2377, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.5147, Throughput: 82.09 examples/sec
+[2020-05-22 04:18:02.030630 PDT] Iters: 0, Epoch: 13, Batch: 201/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 103.8156, TrainVAE_REC: 99.6439, TrainVAE_KL: 4.1717, TrainVAE_PPL: 94.02, TrainSVI_NLL: 103.70, TrainSVI_REC: 99.40, TrainSVI_KL: 4.3017, TrainSVI_PPL: 93.56, KLInitFinal: 0.00, |Param|: 457.3362, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.5294, Throughput: 85.04 examples/sec
+[2020-05-22 04:18:37.407796 PDT] Iters: 0, Epoch: 13, Batch: 301/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 103.2447, TrainVAE_REC: 99.1070, TrainVAE_KL: 4.1377, TrainVAE_PPL: 93.87, TrainSVI_NLL: 103.12, TrainSVI_REC: 98.86, TrainSVI_KL: 4.2688, TrainSVI_PPL: 93.37, KLInitFinal: 0.00, |Param|: 459.2528, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.5442, Throughput: 85.62 examples/sec
+[2020-05-22 04:19:14.246471 PDT] Iters: 0, Epoch: 13, Batch: 401/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 103.7847, TrainVAE_REC: 99.6410, TrainVAE_KL: 4.1437, TrainVAE_PPL: 95.12, TrainSVI_NLL: 103.68, TrainSVI_REC: 99.41, TrainSVI_KL: 4.2721, TrainSVI_PPL: 94.68, KLInitFinal: 0.00, |Param|: 461.2115, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.5589, Throughput: 85.53 examples/sec
+[2020-05-22 04:19:49.583296 PDT] Iters: 0, Epoch: 13, Batch: 501/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 103.6613, TrainVAE_REC: 99.5537, TrainVAE_KL: 4.1076, TrainVAE_PPL: 95.86, TrainSVI_NLL: 103.56, TrainSVI_REC: 99.32, TrainSVI_KL: 4.2336, TrainSVI_PPL: 95.41, KLInitFinal: 0.00, |Param|: 463.1505, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.5736, Throughput: 85.79 examples/sec
+[2020-05-22 04:20:23.209313 PDT] Iters: 0, Epoch: 13, Batch: 601/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 102.7870, TrainVAE_REC: 98.7249, TrainVAE_KL: 4.0621, TrainVAE_PPL: 95.94, TrainSVI_NLL: 102.67, TrainSVI_REC: 98.48, TrainSVI_KL: 4.1866, TrainSVI_PPL: 95.45, KLInitFinal: 0.00, |Param|: 465.0461, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.5883, Throughput: 86.92 examples/sec
+[2020-05-22 04:20:56.135529 PDT] Iters: 0, Epoch: 13, Batch: 701/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.9682, TrainVAE_REC: 97.9578, TrainVAE_KL: 4.0104, TrainVAE_PPL: 96.23, TrainSVI_NLL: 101.89, TrainSVI_REC: 97.75, TrainSVI_KL: 4.1374, TrainSVI_PPL: 95.90, KLInitFinal: 0.00, |Param|: 466.9534, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.6030, Throughput: 87.81 examples/sec
+[2020-05-22 04:21:28.731846 PDT] Iters: 0, Epoch: 13, Batch: 801/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.1683, TrainVAE_REC: 97.2006, TrainVAE_KL: 3.9677, TrainVAE_PPL: 96.40, TrainSVI_NLL: 101.10, TrainSVI_REC: 97.01, TrainSVI_KL: 4.0932, TrainSVI_PPL: 96.12, KLInitFinal: 0.00, |Param|: 468.8185, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.6177, Throughput: 88.81 examples/sec
+[2020-05-22 04:22:06.574042 PDT] Iters: 0, Epoch: 13, Batch: 901/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.8972, TrainVAE_REC: 97.9593, TrainVAE_KL: 3.9380, TrainVAE_PPL: 96.49, TrainSVI_NLL: 101.83, TrainSVI_REC: 97.76, TrainSVI_KL: 4.0649, TrainSVI_PPL: 96.19, KLInitFinal: 0.00, |Param|: 470.7281, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.6325, Throughput: 87.97 examples/sec
+[2020-05-22 04:22:39.206116 PDT] Iters: 0, Epoch: 13, Batch: 1001/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.2563, TrainVAE_REC: 97.3717, TrainVAE_KL: 3.8846, TrainVAE_PPL: 96.86, TrainSVI_NLL: 101.20, TrainSVI_REC: 97.18, TrainSVI_KL: 4.0148, TrainSVI_PPL: 96.60, KLInitFinal: 0.00, |Param|: 472.6247, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.6472, Throughput: 88.56 examples/sec
+[2020-05-22 04:23:15.770103 PDT] Iters: 0, Epoch: 13, Batch: 1101/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 101.6454, TrainVAE_REC: 97.7963, TrainVAE_KL: 3.8490, TrainVAE_PPL: 97.19, TrainSVI_NLL: 101.59, TrainSVI_REC: 97.61, TrainSVI_KL: 3.9783, TrainSVI_PPL: 96.94, KLInitFinal: 0.00, |Param|: 474.4567, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.6619, Throughput: 88.27 examples/sec
+[2020-05-22 04:23:47.193196 PDT] Iters: 0, Epoch: 13, Batch: 1201/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 100.8939, TrainVAE_REC: 97.0925, TrainVAE_KL: 3.8014, TrainVAE_PPL: 97.46, TrainSVI_NLL: 100.83, TrainSVI_REC: 96.90, TrainSVI_KL: 3.9303, TrainSVI_PPL: 97.19, KLInitFinal: 0.00, |Param|: 476.2515, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.6766, Throughput: 89.00 examples/sec
+[2020-05-22 04:24:22.079485 PDT] Iters: 0, Epoch: 13, Batch: 1301/1359, LR: 0.0009, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 100.8837, TrainVAE_REC: 97.1173, TrainVAE_KL: 3.7664, TrainVAE_PPL: 97.87, TrainSVI_NLL: 100.85, TrainSVI_REC: 96.95, TrainSVI_KL: 3.8933, TrainSVI_PPL: 97.70, KLInitFinal: 0.00, |Param|: 478.0156, BestValPerf: 119.29, BestEpoch: 10, Beta: 0.6913, Throughput: 88.95 examples/sec
+[2020-05-22 04:24:44.415102 PDT] Time Elapsed: 475.7s
+[2020-05-22 04:24:44.415326 PDT] --------------------------------
+[2020-05-22 04:24:44.415446 PDT] Checking validation perf...
+---------------------------------
+| Epoch            | 13         |
+| Mode             | Val        |
+| LR               | 0.00090451 |
+| Epoch Train Time | 475.72     |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 104.55     |
+| VAE REC          | 101.44     |
+| VAE KL           | 3.1051     |
+| VAE PPL          | 118.7      |
+| SVI NLL          | 104.43     |
+| SVI REC          | 100.99     |
+| SVI KL           | 3.4465     |
+| SVI PPL          | 118.08     |
+---------------------------------
+[2020-05-22 04:25:05.122209 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 104.5460, VAE REC: 101.4409, VAE KL: 3.1051, VAE PPL: 118.6970, SVI NLL: 104.4316, SVI REC: 100.9851, SVI KL: 3.4465, SVI PPL: 118.0781
+[2020-05-22 04:25:05.122708 PDT] --------------------------------
+[2020-05-22 04:25:05.122881 PDT] Checking test perf...
+---------------------------------
+| Epoch            | 13         |
+| Mode             | Test       |
+| LR               | 0.00090451 |
+| Epoch Train Time | 475.72     |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 103.38     |
+| VAE REC          | 100.31     |
+| VAE KL           | 3.0719     |
+| VAE PPL          | 111.84     |
+| SVI NLL          | 103.22     |
+| SVI REC          | 99.865     |
+| SVI KL           | 3.3516     |
+| SVI PPL          | 110.99     |
+---------------------------------
+[2020-05-22 04:25:28.039997 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 103.3848, VAE REC: 100.3129, VAE KL: 3.0719, VAE PPL: 111.8433, SVI NLL: 103.2164, SVI REC: 99.8648, SVI KL: 3.3516, SVI PPL: 110.9869
+[2020-05-22 04:25:28.060819 PDT] Save checkpoint to models/ptb/savae_cyc.pt
+[2020-05-22 04:25:28.196716 PDT] Starting epoch 14
+[2020-05-22 04:26:04.349546 PDT] Iters: 0, Epoch: 14, Batch: 101/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.1691, TrainVAE_REC: 95.0809, TrainVAE_KL: 3.0881, TrainVAE_PPL: 88.05, TrainSVI_NLL: 98.16, TrainSVI_REC: 94.94, TrainSVI_KL: 3.2197, TrainSVI_PPL: 88.01, KLInitFinal: 0.00, |Param|: 480.8187, BestValPerf: 118.08, BestEpoch: 13, Beta: 0.7147, Throughput: 84.00 examples/sec
+[2020-05-22 04:26:39.752364 PDT] Iters: 0, Epoch: 14, Batch: 201/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 95.5599, TrainVAE_REC: 92.4021, TrainVAE_KL: 3.1578, TrainVAE_PPL: 87.34, TrainSVI_NLL: 95.52, TrainSVI_REC: 92.25, TrainSVI_KL: 3.2657, TrainSVI_PPL: 87.17, KLInitFinal: 0.00, |Param|: 482.4671, BestValPerf: 118.08, BestEpoch: 13, Beta: 0.7294, Throughput: 86.11 examples/sec
+[2020-05-22 04:27:15.444846 PDT] Iters: 0, Epoch: 14, Batch: 301/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 95.6660, TrainVAE_REC: 92.5097, TrainVAE_KL: 3.1563, TrainVAE_PPL: 87.38, TrainSVI_NLL: 95.70, TrainSVI_REC: 92.43, TrainSVI_KL: 3.2710, TrainSVI_PPL: 87.52, KLInitFinal: 0.00, |Param|: 484.1696, BestValPerf: 118.08, BestEpoch: 13, Beta: 0.7442, Throughput: 85.96 examples/sec
+[2020-05-22 04:27:53.649768 PDT] Iters: 0, Epoch: 14, Batch: 401/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.1522, TrainVAE_REC: 94.9968, TrainVAE_KL: 3.1554, TrainVAE_PPL: 87.84, TrainSVI_NLL: 98.17, TrainSVI_REC: 94.90, TrainSVI_KL: 3.2698, TrainSVI_PPL: 87.91, KLInitFinal: 0.00, |Param|: 485.7883, BestValPerf: 118.08, BestEpoch: 13, Beta: 0.7589, Throughput: 84.70 examples/sec
+[2020-05-22 04:28:26.944872 PDT] Iters: 0, Epoch: 14, Batch: 501/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 97.5614, TrainVAE_REC: 94.4378, TrainVAE_KL: 3.1236, TrainVAE_PPL: 88.09, TrainSVI_NLL: 97.55, TrainSVI_REC: 94.31, TrainSVI_KL: 3.2373, TrainSVI_PPL: 88.03, KLInitFinal: 0.00, |Param|: 487.3335, BestValPerf: 118.08, BestEpoch: 13, Beta: 0.7736, Throughput: 86.02 examples/sec
+[2020-05-22 04:29:00.289457 PDT] Iters: 0, Epoch: 14, Batch: 601/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 97.1839, TrainVAE_REC: 94.0919, TrainVAE_KL: 3.0920, TrainVAE_PPL: 88.24, TrainSVI_NLL: 97.17, TrainSVI_REC: 93.96, TrainSVI_KL: 3.2084, TrainSVI_PPL: 88.17, KLInitFinal: 0.00, |Param|: 488.8758, BestValPerf: 118.08, BestEpoch: 13, Beta: 0.7883, Throughput: 87.20 examples/sec
+[2020-05-22 04:29:36.760094 PDT] Iters: 0, Epoch: 14, Batch: 701/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.0860, TrainVAE_REC: 95.0312, TrainVAE_KL: 3.0548, TrainVAE_PPL: 88.87, TrainSVI_NLL: 98.06, TrainSVI_REC: 94.88, TrainSVI_KL: 3.1734, TrainSVI_PPL: 88.76, KLInitFinal: 0.00, |Param|: 490.4049, BestValPerf: 118.08, BestEpoch: 13, Beta: 0.8030, Throughput: 86.79 examples/sec
+[2020-05-22 04:30:15.408191 PDT] Iters: 0, Epoch: 14, Batch: 801/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 99.3683, TrainVAE_REC: 96.3393, TrainVAE_KL: 3.0290, TrainVAE_PPL: 89.83, TrainSVI_NLL: 99.35, TrainSVI_REC: 96.20, TrainSVI_KL: 3.1491, TrainSVI_PPL: 89.75, KLInitFinal: 0.00, |Param|: 491.9534, BestValPerf: 118.08, BestEpoch: 13, Beta: 0.8177, Throughput: 85.87 examples/sec
+[2020-05-22 04:30:50.290057 PDT] Iters: 0, Epoch: 14, Batch: 901/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 99.5153, TrainVAE_REC: 96.5207, TrainVAE_KL: 2.9946, TrainVAE_PPL: 90.25, TrainSVI_NLL: 99.52, TrainSVI_REC: 96.40, TrainSVI_KL: 3.1138, TrainSVI_PPL: 90.25, KLInitFinal: 0.00, |Param|: 493.4808, BestValPerf: 118.08, BestEpoch: 13, Beta: 0.8325, Throughput: 86.28 examples/sec
+[2020-05-22 04:31:24.128140 PDT] Iters: 0, Epoch: 14, Batch: 1001/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 99.0914, TrainVAE_REC: 96.1321, TrainVAE_KL: 2.9592, TrainVAE_PPL: 90.61, TrainSVI_NLL: 99.07, TrainSVI_REC: 95.99, TrainSVI_KL: 3.0787, TrainSVI_PPL: 90.51, KLInitFinal: 0.00, |Param|: 494.9390, BestValPerf: 118.08, BestEpoch: 13, Beta: 0.8472, Throughput: 86.75 examples/sec
+[2020-05-22 04:32:02.670335 PDT] Iters: 0, Epoch: 14, Batch: 1101/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 99.5499, TrainVAE_REC: 96.6117, TrainVAE_KL: 2.9382, TrainVAE_PPL: 90.87, TrainSVI_NLL: 99.52, TrainSVI_REC: 96.47, TrainSVI_KL: 3.0561, TrainSVI_PPL: 90.76, KLInitFinal: 0.00, |Param|: 496.3637, BestValPerf: 118.08, BestEpoch: 13, Beta: 0.8619, Throughput: 86.13 examples/sec
+[2020-05-22 04:32:40.380400 PDT] Iters: 0, Epoch: 14, Batch: 1201/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 100.0442, TrainVAE_REC: 97.1322, TrainVAE_KL: 2.9120, TrainVAE_PPL: 91.55, TrainSVI_NLL: 100.02, TrainSVI_REC: 96.99, TrainSVI_KL: 3.0293, TrainSVI_PPL: 91.44, KLInitFinal: 0.00, |Param|: 497.7964, BestValPerf: 118.08, BestEpoch: 13, Beta: 0.8766, Throughput: 85.92 examples/sec
+[2020-05-22 04:33:14.722959 PDT] Iters: 0, Epoch: 14, Batch: 1301/1359, LR: 0.0008, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 99.8822, TrainVAE_REC: 97.0045, TrainVAE_KL: 2.8777, TrainVAE_PPL: 91.71, TrainSVI_NLL: 99.86, TrainSVI_REC: 96.86, TrainSVI_KL: 2.9959, TrainSVI_PPL: 91.60, KLInitFinal: 0.00, |Param|: 499.2160, BestValPerf: 118.08, BestEpoch: 13, Beta: 0.8913, Throughput: 86.36 examples/sec
+[2020-05-22 04:33:35.875324 PDT] Time Elapsed: 487.7s
+[2020-05-22 04:33:35.875624 PDT] --------------------------------
+[2020-05-22 04:33:35.875803 PDT] Checking validation perf...
+---------------------------------
+| Epoch            | 14         |
+| Mode             | Val        |
+| LR               | 0.00079389 |
+| Epoch Train Time | 487.68     |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 104.11     |
+| VAE REC          | 101.63     |
+| VAE KL           | 2.4768     |
+| VAE PPL          | 116.34     |
+| SVI NLL          | 103.89     |
+| SVI REC          | 101.25     |
+| SVI KL           | 2.6338     |
+| SVI PPL          | 115.17     |
+---------------------------------
+[2020-05-22 04:33:59.107837 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 104.1072, VAE REC: 101.6303, VAE KL: 2.4768, VAE PPL: 116.3407, SVI NLL: 103.8863, SVI REC: 101.2525, SVI KL: 2.6338, SVI PPL: 115.1725
+[2020-05-22 04:33:59.108454 PDT] --------------------------------
+[2020-05-22 04:33:59.108619 PDT] Checking test perf...
+---------------------------------
+| Epoch            | 14         |
+| Mode             | Test       |
+| LR               | 0.00079389 |
+| Epoch Train Time | 487.68     |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 102.92     |
+| VAE REC          | 100.5      |
+| VAE KL           | 2.4162     |
+| VAE PPL          | 109.49     |
+| SVI NLL          | 102.72     |
+| SVI REC          | 100.16     |
+| SVI KL           | 2.5652     |
+| SVI PPL          | 108.51     |
+---------------------------------
+[2020-05-22 04:34:22.691827 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 102.9190, VAE REC: 100.5028, VAE KL: 2.4162, VAE PPL: 109.4911, SVI NLL: 102.7218, SVI REC: 100.1566, SVI KL: 2.5652, SVI PPL: 108.5106
+[2020-05-22 04:34:22.718958 PDT] Save checkpoint to models/ptb/savae_cyc.pt
+[2020-05-22 04:34:22.843150 PDT] Starting epoch 15
+[2020-05-22 04:34:57.786838 PDT] Iters: 0, Epoch: 15, Batch: 101/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 96.3210, TrainVAE_REC: 93.8451, TrainVAE_KL: 2.4759, TrainVAE_PPL: 83.40, TrainSVI_NLL: 96.28, TrainSVI_REC: 93.68, TrainSVI_KL: 2.5957, TrainSVI_PPL: 83.24, KLInitFinal: 0.00, |Param|: 501.3559, BestValPerf: 115.17, BestEpoch: 14, Beta: 0.9147, Throughput: 86.20 examples/sec
+[2020-05-22 04:35:32.952961 PDT] Iters: 0, Epoch: 15, Batch: 201/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 96.4333, TrainVAE_REC: 93.9979, TrainVAE_KL: 2.4354, TrainVAE_PPL: 82.62, TrainSVI_NLL: 96.51, TrainSVI_REC: 93.96, TrainSVI_KL: 2.5525, TrainSVI_PPL: 82.91, KLInitFinal: 0.00, |Param|: 502.6128, BestValPerf: 115.17, BestEpoch: 14, Beta: 0.9294, Throughput: 87.52 examples/sec
+[2020-05-22 04:36:10.357873 PDT] Iters: 0, Epoch: 15, Batch: 301/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 99.2374, TrainVAE_REC: 96.8275, TrainVAE_KL: 2.4099, TrainVAE_PPL: 82.71, TrainSVI_NLL: 99.33, TrainSVI_REC: 96.80, TrainSVI_KL: 2.5256, TrainSVI_PPL: 83.04, KLInitFinal: 0.00, |Param|: 503.9105, BestValPerf: 115.17, BestEpoch: 14, Beta: 0.9442, Throughput: 86.51 examples/sec
+[2020-05-22 04:36:45.063104 PDT] Iters: 0, Epoch: 15, Batch: 401/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.6681, TrainVAE_REC: 96.2630, TrainVAE_KL: 2.4051, TrainVAE_PPL: 83.59, TrainSVI_NLL: 98.72, TrainSVI_REC: 96.20, TrainSVI_KL: 2.5161, TrainSVI_PPL: 83.78, KLInitFinal: 0.00, |Param|: 505.1056, BestValPerf: 115.17, BestEpoch: 14, Beta: 0.9589, Throughput: 87.36 examples/sec
+[2020-05-22 04:37:20.166672 PDT] Iters: 0, Epoch: 15, Batch: 501/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.6026, TrainVAE_REC: 96.2259, TrainVAE_KL: 2.3767, TrainVAE_PPL: 83.96, TrainSVI_NLL: 98.65, TrainSVI_REC: 96.16, TrainSVI_KL: 2.4860, TrainSVI_PPL: 84.12, KLInitFinal: 0.00, |Param|: 506.3195, BestValPerf: 115.17, BestEpoch: 14, Beta: 0.9736, Throughput: 87.51 examples/sec
+[2020-05-22 04:37:56.657115 PDT] Iters: 0, Epoch: 15, Batch: 601/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 99.1053, TrainVAE_REC: 96.7370, TrainVAE_KL: 2.3683, TrainVAE_PPL: 84.91, TrainSVI_NLL: 99.13, TrainSVI_REC: 96.65, TrainSVI_KL: 2.4785, TrainSVI_PPL: 85.01, KLInitFinal: 0.00, |Param|: 507.4697, BestValPerf: 115.17, BestEpoch: 14, Beta: 0.9883, Throughput: 86.82 examples/sec
+[2020-05-22 04:38:30.230930 PDT] Iters: 0, Epoch: 15, Batch: 701/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.3559, TrainVAE_REC: 96.0186, TrainVAE_KL: 2.3373, TrainVAE_PPL: 85.03, TrainSVI_NLL: 98.34, TrainSVI_REC: 95.89, TrainSVI_KL: 2.4501, TrainSVI_PPL: 84.98, KLInitFinal: 0.00, |Param|: 508.5995, BestValPerf: 115.17, BestEpoch: 14, Beta: 1.0000, Throughput: 87.68 examples/sec
+[2020-05-22 04:39:08.792807 PDT] Iters: 0, Epoch: 15, Batch: 801/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 99.6059, TrainVAE_REC: 97.2881, TrainVAE_KL: 2.3178, TrainVAE_PPL: 85.85, TrainSVI_NLL: 99.62, TrainSVI_REC: 97.19, TrainSVI_KL: 2.4312, TrainSVI_PPL: 85.92, KLInitFinal: 0.00, |Param|: 509.7591, BestValPerf: 115.17, BestEpoch: 14, Beta: 1.0000, Throughput: 86.48 examples/sec
+[2020-05-22 04:39:44.965882 PDT] Iters: 0, Epoch: 15, Batch: 901/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 99.6386, TrainVAE_REC: 97.3422, TrainVAE_KL: 2.2964, TrainVAE_PPL: 86.15, TrainSVI_NLL: 99.64, TrainSVI_REC: 97.23, TrainSVI_KL: 2.4118, TrainSVI_PPL: 86.15, KLInitFinal: 0.00, |Param|: 510.9167, BestValPerf: 115.17, BestEpoch: 14, Beta: 1.0000, Throughput: 86.63 examples/sec
+[2020-05-22 04:40:18.963153 PDT] Iters: 0, Epoch: 15, Batch: 1001/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 99.3415, TrainVAE_REC: 97.0674, TrainVAE_KL: 2.2741, TrainVAE_PPL: 86.36, TrainSVI_NLL: 99.38, TrainSVI_REC: 96.99, TrainSVI_KL: 2.3885, TrainSVI_PPL: 86.49, KLInitFinal: 0.00, |Param|: 511.9967, BestValPerf: 115.17, BestEpoch: 14, Beta: 1.0000, Throughput: 86.90 examples/sec
+[2020-05-22 04:40:54.403920 PDT] Iters: 0, Epoch: 15, Batch: 1101/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 99.2695, TrainVAE_REC: 97.0101, TrainVAE_KL: 2.2594, TrainVAE_PPL: 86.57, TrainSVI_NLL: 99.29, TrainSVI_REC: 96.91, TrainSVI_KL: 2.3744, TrainSVI_PPL: 86.64, KLInitFinal: 0.00, |Param|: 513.0947, BestValPerf: 115.17, BestEpoch: 14, Beta: 1.0000, Throughput: 86.92 examples/sec
+[2020-05-22 04:41:27.619189 PDT] Iters: 0, Epoch: 15, Batch: 1201/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.7874, TrainVAE_REC: 96.5434, TrainVAE_KL: 2.2440, TrainVAE_PPL: 86.50, TrainSVI_NLL: 98.81, TrainSVI_REC: 96.46, TrainSVI_KL: 2.3569, TrainSVI_PPL: 86.60, KLInitFinal: 0.00, |Param|: 514.1863, BestValPerf: 115.17, BestEpoch: 14, Beta: 1.0000, Throughput: 87.42 examples/sec
+[2020-05-22 04:42:01.241853 PDT] Iters: 0, Epoch: 15, Batch: 1301/1359, LR: 0.0007, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.4564, TrainVAE_REC: 96.2336, TrainVAE_KL: 2.2228, TrainVAE_PPL: 86.52, TrainSVI_NLL: 98.48, TrainSVI_REC: 96.14, TrainSVI_KL: 2.3345, TrainSVI_PPL: 86.60, KLInitFinal: 0.00, |Param|: 515.2786, BestValPerf: 115.17, BestEpoch: 14, Beta: 1.0000, Throughput: 87.84 examples/sec
+[2020-05-22 04:42:23.096782 PDT] Time Elapsed: 480.3s
+[2020-05-22 04:42:23.097066 PDT] --------------------------------
+[2020-05-22 04:42:23.097208 PDT] Checking validation perf...
+---------------------------------
+| Epoch            | 15         |
+| Mode             | Val        |
+| LR               | 0.00065451 |
+| Epoch Train Time | 480.25     |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 103.79     |
+| VAE REC          | 101.83     |
+| VAE KL           | 1.9576     |
+| VAE PPL          | 114.68     |
+| SVI NLL          | 103.59     |
+| SVI REC          | 101.47     |
+| SVI KL           | 2.1173     |
+| SVI PPL          | 113.61     |
+---------------------------------
+[2020-05-22 04:42:44.233085 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 103.7917, VAE REC: 101.8341, VAE KL: 1.9576, VAE PPL: 114.6758, SVI NLL: 103.5871, SVI REC: 101.4698, SVI KL: 2.1173, SVI PPL: 113.6088
+[2020-05-22 04:42:44.233533 PDT] --------------------------------
+[2020-05-22 04:42:44.233684 PDT] Checking test perf...
+---------------------------------
+| Epoch            | 15         |
+| Mode             | Test       |
+| LR               | 0.00065451 |
+| Epoch Train Time | 480.25     |
+| AR NLL           | 0          |
+| AR PPL           | 1          |
+| VAE NLL          | 102.6      |
+| VAE REC          | 100.72     |
+| VAE KL           | 1.8833     |
+| VAE PPL          | 107.92     |
+| SVI NLL          | 102.41     |
+| SVI REC          | 100.39     |
+| SVI KL           | 2.0182     |
+| SVI PPL          | 106.97     |
+---------------------------------
+[2020-05-22 04:43:07.123179 PDT] AR NLL: 0.0000, AR PPL: 1.0000, VAE NLL: 102.6032, VAE REC: 100.7200, VAE KL: 1.8833, VAE PPL: 107.9249, SVI NLL: 102.4087, SVI REC: 100.3905, SVI KL: 2.0182, SVI PPL: 106.9713
+[2020-05-22 04:43:07.147578 PDT] Save checkpoint to models/ptb/savae_cyc.pt
+[2020-05-22 04:43:07.275209 PDT] Starting epoch 16
+[2020-05-22 04:43:41.179936 PDT] Iters: 0, Epoch: 16, Batch: 101/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 92.0259, TrainVAE_REC: 89.9617, TrainVAE_KL: 2.0642, TrainVAE_PPL: 78.76, TrainSVI_NLL: 92.15, TrainSVI_REC: 90.00, TrainSVI_KL: 2.1493, TrainSVI_PPL: 79.23, KLInitFinal: 0.00, |Param|: 516.7502, BestValPerf: 113.61, BestEpoch: 15, Beta: 1.0000, Throughput: 90.67 examples/sec
+[2020-05-22 04:44:15.139113 PDT] Iters: 0, Epoch: 16, Batch: 201/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 93.0552, TrainVAE_REC: 91.0200, TrainVAE_KL: 2.0352, TrainVAE_PPL: 78.68, TrainSVI_NLL: 93.11, TrainSVI_REC: 90.96, TrainSVI_KL: 2.1446, TrainSVI_PPL: 78.87, KLInitFinal: 0.00, |Param|: 517.6257, BestValPerf: 113.61, BestEpoch: 15, Beta: 1.0000, Throughput: 89.43 examples/sec
+[2020-05-22 04:44:47.725782 PDT] Iters: 0, Epoch: 16, Batch: 301/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 92.2833, TrainVAE_REC: 90.2803, TrainVAE_KL: 2.0031, TrainVAE_PPL: 78.75, TrainSVI_NLL: 92.37, TrainSVI_REC: 90.25, TrainSVI_KL: 2.1183, TrainSVI_PPL: 79.06, KLInitFinal: 0.00, |Param|: 518.4983, BestValPerf: 113.61, BestEpoch: 15, Beta: 1.0000, Throughput: 91.83 examples/sec
+[2020-05-22 04:45:23.322850 PDT] Iters: 0, Epoch: 16, Batch: 401/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 94.1988, TrainVAE_REC: 92.1767, TrainVAE_KL: 2.0221, TrainVAE_PPL: 79.60, TrainSVI_NLL: 94.28, TrainSVI_REC: 92.15, TrainSVI_KL: 2.1339, TrainSVI_PPL: 79.91, KLInitFinal: 0.00, |Param|: 519.3367, BestValPerf: 113.61, BestEpoch: 15, Beta: 1.0000, Throughput: 90.12 examples/sec
+[2020-05-22 04:46:02.674186 PDT] Iters: 0, Epoch: 16, Batch: 501/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 96.4005, TrainVAE_REC: 94.3590, TrainVAE_KL: 2.0415, TrainVAE_PPL: 80.50, TrainSVI_NLL: 96.45, TrainSVI_REC: 94.30, TrainSVI_KL: 2.1482, TrainSVI_PPL: 80.67, KLInitFinal: 0.00, |Param|: 520.1762, BestValPerf: 113.61, BestEpoch: 15, Beta: 1.0000, Throughput: 87.50 examples/sec
+[2020-05-22 04:46:39.010069 PDT] Iters: 0, Epoch: 16, Batch: 601/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 96.5983, TrainVAE_REC: 94.5777, TrainVAE_KL: 2.0206, TrainVAE_PPL: 80.76, TrainSVI_NLL: 96.63, TrainSVI_REC: 94.50, TrainSVI_KL: 2.1316, TrainSVI_PPL: 80.89, KLInitFinal: 0.00, |Param|: 521.0030, BestValPerf: 113.61, BestEpoch: 15, Beta: 1.0000, Throughput: 87.43 examples/sec
+[2020-05-22 04:47:15.951063 PDT] Iters: 0, Epoch: 16, Batch: 701/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 97.6514, TrainVAE_REC: 95.6237, TrainVAE_KL: 2.0277, TrainVAE_PPL: 80.87, TrainSVI_NLL: 97.71, TrainSVI_REC: 95.57, TrainSVI_KL: 2.1360, TrainSVI_PPL: 81.06, KLInitFinal: 0.00, |Param|: 521.8144, BestValPerf: 113.61, BestEpoch: 15, Beta: 1.0000, Throughput: 86.68 examples/sec
+[2020-05-22 04:47:52.448271 PDT] Iters: 0, Epoch: 16, Batch: 801/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.2347, TrainVAE_REC: 96.2112, TrainVAE_KL: 2.0235, TrainVAE_PPL: 81.52, TrainSVI_NLL: 98.29, TrainSVI_REC: 96.16, TrainSVI_KL: 2.1327, TrainSVI_PPL: 81.71, KLInitFinal: 0.00, |Param|: 522.6389, BestValPerf: 113.61, BestEpoch: 15, Beta: 1.0000, Throughput: 86.72 examples/sec
+[2020-05-22 04:48:27.660205 PDT] Iters: 0, Epoch: 16, Batch: 901/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.2081, TrainVAE_REC: 96.1896, TrainVAE_KL: 2.0185, TrainVAE_PPL: 81.47, TrainSVI_NLL: 98.28, TrainSVI_REC: 96.15, TrainSVI_KL: 2.1256, TrainSVI_PPL: 81.73, KLInitFinal: 0.00, |Param|: 523.4519, BestValPerf: 113.61, BestEpoch: 15, Beta: 1.0000, Throughput: 86.91 examples/sec
+[2020-05-22 04:49:01.130645 PDT] Iters: 0, Epoch: 16, Batch: 1001/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.0815, TrainVAE_REC: 96.0704, TrainVAE_KL: 2.0111, TrainVAE_PPL: 81.70, TrainSVI_NLL: 98.14, TrainSVI_REC: 96.02, TrainSVI_KL: 2.1178, TrainSVI_PPL: 81.92, KLInitFinal: 0.00, |Param|: 524.2471, BestValPerf: 113.61, BestEpoch: 15, Beta: 1.0000, Throughput: 87.37 examples/sec
+[2020-05-22 04:49:38.553597 PDT] Iters: 0, Epoch: 16, Batch: 1101/1359, LR: 0.0005, TrainARNLL: 0.0000, TrainARPPL: 1.00, TrainVAE_NLL: 98.3865, TrainVAE_REC: 96.3743, TrainVAE_KL: 2.0121, TrainVAE_PPL: 82.16, TrainSVI_NLL: 98.45, TrainSVI_REC: 96.33, TrainSVI_KL: 2.1154, TrainSVI_PPL: 82.40, KLInitFinal: 0.00, |Param|: 525.0335, BestValPerf: 113.61, BestEpoch: 15, Beta: 1.0000, Throughput: 86.98 examples/sec

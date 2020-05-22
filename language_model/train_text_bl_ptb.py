@@ -36,7 +36,7 @@ parser.add_argument('--train_from', default='')
 
 # Model options
 parser.add_argument('--latent_dim', default=32, type=int)
-parser.add_argument('--enc_word_dim', default=256, type=int)
+parser.add_argument('--enc_word_dim', default=300, type=int)
 parser.add_argument('--enc_h_dim', default=256, type=int)
 parser.add_argument('--enc_num_layers', default=1, type=int)
 parser.add_argument('--dec_word_dim', default=256, type=int)
